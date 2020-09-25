@@ -3,12 +3,9 @@ import './Header.css';
 
 export default () => {
 	const [isSticky, setSticky] = useState(false);
-	const ref = useRef(null);
 	const handleScroll = () => {
-		if (ref.current) {
-			console.log(window.pageYOffset)
-			setSticky(window.pageYOffset > 0);
-		}
+		console.log(document.body.scrollTop);
+		setSticky(window.pageYOffset > 20);
 	};
 
 	useEffect(() => {
@@ -19,7 +16,7 @@ export default () => {
 		};
 	}, []);
 	return (
-		<header ref={ref} className={`header${isSticky ? ' sticky' : ''}`}>
+		<header className={`header${isSticky ? ' sticky' : ' not-sticky'}`}>
 			<div>
 				<h1>The Hair Salon</h1>
 				<h5>When only the best will do</h5>
