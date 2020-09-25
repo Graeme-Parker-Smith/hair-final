@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 
 export default () => {
@@ -16,21 +16,24 @@ export default () => {
 		};
 	}, []);
 	return (
-		<header className={`header${isSticky ? ' sticky' : ' not-sticky'}`}>
-			<div>
-				<h1>The Hair Salon</h1>
-				<h5>When only the best will do</h5>
-			</div>
-			<nav>
-				<span>Home</span>
-				<span>Meet The Styspansts</span>
-				<span>Services</span>
-				<span>Contact</span>
-				<span>Testimonials</span>
-				<span>Videos</span>
-				<span>Opportunities</span>
-				<span>Search</span>
-			</nav>
-		</header>
+		<div>
+			<header className={`header${isSticky ? ' sticky' : ' not-sticky'}`}>
+				<div>
+					<h1>The Hair Salon</h1>
+					<h5>When only the best will do</h5>
+				</div>
+				<nav>
+					<span>Home</span>
+					<span>Meet The Stylists</span>
+					<span>Services</span>
+					<span>Contact</span>
+					<span>Testimonials</span>
+					<span>Videos</span>
+					<span>Opportunities</span>
+					<span>Search</span>
+				</nav>
+			</header>
+			<div className={`${isSticky ? 'scroll-padding' : 'no-padding'}`} />
+		</div>
 	);
 };

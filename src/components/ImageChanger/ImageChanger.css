@@ -1,4 +1,26 @@
 .ImageChanger {
+    background-color: black;
+}
+
+.slider-container {
     background-color: pink;
-    height: 120rem
+    height: 425px;
+}
+
+.banner {
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.banner span {
+    line-height: 100px;
+    font-size: xx-large;
+}
+
+.img {
+    height: 100%;
+    display: block;
+    margin: auto;
+    /* object-fit: scale-down; */
+    /* width: 1000px; */
 }

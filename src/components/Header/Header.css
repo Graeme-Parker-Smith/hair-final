@@ -11,6 +11,16 @@
 	transition: all 0.25s linear;
 }
 
+/* .scroll-padding {
+	height: 130px;
+	background-color: pink;
+}
+
+.no-padding {
+	height: 0px;
+	background-color: pink;
+} */
+
 header {
 	/* position: fixed; */
 	top: 0;
@@ -19,11 +29,13 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 50px 50px;
-	animation: 1s fadein 0.5s forwards;
-	opacity: 0;
+	/* animation: 1s fadein 0.5s forwards;
+	opacity: 0; */
 	color: #fff;
 	background-color: #000;
 }
+
+
 @keyframes fadein {
 	100% {
 		opacity: 1;
@@ -101,13 +113,18 @@ header h5 {
 }
 header nav {
 	display: flex;
+	align-items: flex-start;
 	margin-right: -15px;
 }
 header nav span {
 	margin: 0 5px;
 	padding: 15px 10px;
 	cursor: pointer;
+	position: relative;
 	text-transform: uppercase;
+	opacity: 0;
+	animation: 1s fadein 0.5s forwards;
+	align-self: flex-start;
 }
 
 header span:hover {
