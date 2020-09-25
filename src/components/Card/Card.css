@@ -1,17 +1,24 @@
 .card {
-    height: 702px;
-    width: 337px;
-    padding: 28px;
-    background-color: pink;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-around; */
+	height: 702px;
+	width: 337px;
+	padding: 28px;
+	/* background-color: pink; */
+	margin: 75px;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* justify-content: space-around; */
+}
+
+.card > h4 {
+    color: #af3434;
+    text-align: center;
+    margin: 10px;
 }
 
 .card-img {
-    height: 50%;
-    display: block;
-    margin: auto;
-    /* object-fit: cover; */
-    /* width: 1000px; */
+	height: 50%;
+	display: block;
+	margin: auto;
+	/* object-fit: cover; */
+	/* width: 1000px; */
 }

@@ -1,12 +1,6 @@
 import React from 'react';
-import './CardSection.css';
+import './GridDisplay.css';
 import Card from '../Card/Card';
-
-const cardHeaders = [
-  'HIGHLIGHTS & COLOR',
-  'HAIR DESIGNS',
-  'BARBER SERVICES',
-]
 
 const cardTexts = [
 	'Highlight natural or tinted hair up to 7 levels and simultaneously deposit permanent oxidation hair color in a single process. Our Gordiany’s Blazing High lightening System achieves beautiful results and ends the need to do double process bleach and tone highlights. Your color appointment will start off with a careful consultation. Our color selection will be according to skin tone and tones that will blend with your natural base.',
@@ -16,10 +10,15 @@ const cardTexts = [
 
 export default () => {
 	return (
-		<div className="card-section">
-			<Card imgName="curls" header={cardHeaders[0]} text={cardTexts[0]} />
-			<Card imgName="booty" header={cardHeaders[1]} text={cardTexts[1]} />
-			<Card imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} />
+		<div className="grid-display">
+			<div className="grid-container">
+				<Card imgName="curls" text={cardTexts[0]} />
+				<Card imgName="booty" text={cardTexts[1]} />
+				<Card imgName="guy-hair" text={cardTexts[2]} />
+				<Card imgName="guy-hair" text={cardTexts[2]} />
+				<Card imgName="guy-hair" text={cardTexts[2]} />
+				<Card imgName="guy-hair" text={cardTexts[2]} />
+			</div>
 		</div>
 	);
 };
