@@ -4,7 +4,7 @@ import './CenterParagraph.css';
 export default () => {
 	return (
 		<div className="center-paragraph">
-			<h2>Welcome to Gordiany’s Hair Salon</h2>
+			<h2>Welcome to G’s Hair Salon</h2>
 			<p>
 				At G’s Hair Salon we offer a relaxing environment dedicated to personalized service with the idea
 				that every client should look their individual best. We specialize in the finest dimensional foil

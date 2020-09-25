@@ -1,0 +1,5 @@
+.card-section {
+    margin: 75px;
+    display: flex;
+    justify-content: space-around;
+}

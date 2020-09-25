@@ -11,10 +11,13 @@
     height: 100px;
     color: white;
     text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 .banner span {
     line-height: 100px;
     font-size: xx-large;
+
 }
 
 .img {

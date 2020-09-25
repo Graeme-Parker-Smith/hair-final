@@ -1,0 +1,17 @@
+.card {
+    height: 702px;
+    width: 337px;
+    padding: 28px;
+    background-color: pink;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+}
+
+.card-img {
+    height: 50%;
+    display: block;
+    margin: auto;
+    /* object-fit: cover; */
+    /* width: 1000px; */
+}
