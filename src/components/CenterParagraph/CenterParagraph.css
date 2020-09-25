@@ -1,0 +1,14 @@
+.center-paragraph {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+
+.center-paragraph * {
+    margin: 20px;
+}
+
+.center-paragraph > h2 {
+    color: #af3434;
+    text-align: left;
+}
