@@ -22,14 +22,14 @@ export default () => {
 				<h5>When only the best will do</h5>
 			</div>
 			<nav>
-				<li>Home</li>
-				<li>Meet The Stylists</li>
-				<li>Services</li>
-				<li>Contact</li>
-				<li>Testimonials</li>
-				<li>Videos</li>
-				<li>Opportunities</li>
-				<li>Search</li>
+				<span>Home</span>
+				<span>Meet The Styspansts</span>
+				<span>Services</span>
+				<span>Contact</span>
+				<span>Testimonials</span>
+				<span>Videos</span>
+				<span>Opportunities</span>
+				<span>Search</span>
 			</nav>
 		</header>
 	);

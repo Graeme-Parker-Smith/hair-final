@@ -103,13 +103,14 @@ header nav {
 	display: flex;
 	margin-right: -15px;
 }
-header nav li {
-	margin: 0 15px;
+header nav span {
+	margin: 0 5px;
+	padding: 15px 10px;
 	cursor: pointer;
 	text-transform: uppercase;
 }
 
-header li:hover {
+header span:hover {
 	color: yellow;
 }
 
