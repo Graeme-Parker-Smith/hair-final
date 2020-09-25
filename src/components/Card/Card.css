@@ -1,8 +1,8 @@
 .card {
-	height: 702px;
+	/* height: 702px; */
 	width: 337px;
 	padding: 28px;
-	/* background-color: pink; */
+	background-color: white;
 	margin: 75px;
 	/* display: flex; */
 	/* flex-direction: column; */
@@ -16,7 +16,7 @@
 }
 
 .card-img {
-	height: 50%;
+	height: 350px;
 	display: block;
 	margin: auto;
 	/* object-fit: cover; */

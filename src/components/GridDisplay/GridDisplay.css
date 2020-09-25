@@ -1,14 +1,23 @@
 .grid-display {
-	min-height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
 	background-color: chocolate;
+    background-image: url('../../images/bgHairWash.jpg');
+    background-attachment: fixed;
+}
+
+.grid-display span {
+	font-size: 34px;
+	align-self: center;
+	display: inline-block;
+	color: #af3434;
 }
 
 .grid-container {
-    margin: 0 auto;
-    /* margin: 75px; */
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    /* width: 1275; */
-    
+	margin: 0 auto;
+	/* margin: 75px; */
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/* width: 1275; */
 }

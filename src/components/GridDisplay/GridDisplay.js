@@ -11,13 +11,16 @@ const cardTexts = [
 export default () => {
 	return (
 		<div className="grid-display">
+			<div style={{ textAlign: 'center' }}>
+				<span>Why G Hair Studio?</span>
+			</div>
 			<div className="grid-container">
-				<Card imgName="curls" text={cardTexts[0]} />
-				<Card imgName="booty" text={cardTexts[1]} />
-				<Card imgName="guy-hair" text={cardTexts[2]} />
-				<Card imgName="guy-hair" text={cardTexts[2]} />
-				<Card imgName="guy-hair" text={cardTexts[2]} />
-				<Card imgName="guy-hair" text={cardTexts[2]} />
+				<Card text={cardTexts[0]} />
+				<Card text={cardTexts[1]} />
+				<Card text={cardTexts[2]} />
+				<Card text={cardTexts[2]} />
+				<Card text={cardTexts[2]} />
+				<Card text={cardTexts[2]} />
 			</div>
 		</div>
 	);
