@@ -100,10 +100,10 @@ header {
 	animation: 0.25s shrinkh5 0s forwards;
 }
 .not-sticky h1 {
-	animation: 0.25s growh1 0s forwards;
+	animation: 0.35s growh1 0s forwards;
 }
 .not-sticky h5 {
-	animation: 0.25s growh5 0s forwards;
+	animation: 0.35s growh5 0s forwards;
 }
 header h1 {
 	font-family: Georgia, 'Times New Roman', Times, serif;

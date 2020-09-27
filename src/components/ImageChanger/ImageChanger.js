@@ -1,30 +1,44 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './ImageChanger.css';
 
 export default () => {
+	const [state, setState] = useState({
+		currentImage: 0,
+		images: [require('../../images/slider_1.jpg'), require('../../images/slider_2.jpg')],
+		classes: '',
+	});
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setState((state) => {
+				return {
+					...state,
+					currentImage: state.currentImage < state.images.length - 1 ? state.currentImage + 1 : 0,
+				};
+			});
+		}, 3000);
+
+		return () => {
+			clearInterval(interval);
+		};
+	}, []);
+
 	return (
 		<div className="ImageChanger">
 			<div className="slider-container">
-				<img className="img" src={require('../../images/pexels-chloe-kala-1321916.jpg')} alt="beautiful hair" />
+				<div className="img-wrapper">
+					<img className="img" src={state.images[0]} alt="beautiful hair" />
+					<img
+						className="img crossfade"
+						style={{ marginTop: '-425px', opacity: state.currentImage === 1 ? '100%' : '0%', transition: 'opacity 2s' }}
+						src={state.images[1]}
+						alt="beautiful hair"
+					/>
+				</div>
 			</div>
 			<div className="banner">
 				<span>The G Difference</span>
 			</div>
-			{/* <div>
-				<h2>Welcome to Gordiany’s Hair Salon</h2>
-				<p>
-					At Gordiany’s Hair Salon we offer a relaxing environment dedicated to personalized service with the
-					idea that every client should look their individual best. We specialize in the finest dimensional
-					foil highlights and custom colors using only Scruples and Redken. Learn more about our coloring
-					services. We are very proud and excited to give our clients a rare hair-cutting technique that is
-					different and hard to beat. Our stylists have had special training to cut with the rare
-					inter-locking double shear technique that cuts and textures all in one step for the perfect haircut.
-					We are a fully licensed hair salon that caters to men and women of all styles and ages. We pride
-					ourselves in offering industry leading technology, great customer service, a caring attitude, and a
-					gifted stylist. We have a private consultations and styling room to maintain your privacy in a
-					discreet manner.
-				</p>
-			</div> */}
 		</div>
 	);
 };

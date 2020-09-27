@@ -1,29 +1,39 @@
 .ImageChanger {
-    background-color: black;
+	background-color: black;
+    overflow-x: hidden;
 }
 
 .slider-container {
-    background-color: pink;
-    height: 425px;
+	background-color: pink;
+	height: 425px;
+	position: relative;
 }
 
 .banner {
-    height: 100px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 2px;
+	height: 100px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 .banner span {
-    line-height: 100px;
-    font-size: xx-large;
-
+	line-height: 100px;
+	font-size: xx-large;
 }
 
+
+.img-wrapper {
+    position: absolute;
+    left: 50%;
+    /* border: dotted red 1px */
+}
 .img {
-    height: 100%;
-    display: block;
+	height: 425px;
     margin: auto;
-    /* object-fit: scale-down; */
-    /* width: 1000px; */
+    position: relative;
+    display: block;
+    top: -50%;
+    left: -50%;
+	/* object-fit: scale-down; */
+	/* width: 1000px; */
 }

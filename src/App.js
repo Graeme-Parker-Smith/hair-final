@@ -9,7 +9,6 @@ import Footer from './components/Footer/Footer';
 function App() {
 	return (
 		<div>
-			<p style={{fontSize: 300, marginLeft: 400, marginBottom: 400}}>GYJ</p>
 			<Header />
 			<ImageChanger />
 			<CenterParagraph />
