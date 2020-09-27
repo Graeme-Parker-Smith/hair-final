@@ -1,0 +1,17 @@
+.footer {
+	height: 200px;
+	background-color: black;
+	text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-copyright-area {
+	background-color: black;
+	color: white;
+	padding: 15px 30px;
+	font-size: 13px;
+	font-weight: bold;
+}

@@ -33,6 +33,7 @@ header {
 	opacity: 0; */
 	color: #fff;
 	background-color: #000;
+	z-index: 1000;
 }
 
 

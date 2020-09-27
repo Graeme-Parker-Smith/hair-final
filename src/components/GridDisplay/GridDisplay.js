@@ -2,10 +2,22 @@ import React from 'react';
 import './GridDisplay.css';
 import Card from '../Card/Card';
 
+const cardHeaders = [
+	'20 Years of Experience',
+	'Private, Personal,Unique',
+	'More than Just a Client',
+	'About Us',
+	'Cost',
+	'Video',
+];
+
 const cardTexts = [
-	'Highlight natural or tinted hair up to 7 levels and simultaneously deposit permanent oxidation hair color in a single process. Our Gordiany’s Blazing High lightening System achieves beautiful results and ends the need to do double process bleach and tone highlights. Your color appointment will start off with a careful consultation. Our color selection will be according to skin tone and tones that will blend with your natural base.',
-	'We analyze every client and customize your hair design for your face structure, hair structure, body structure and your lifestyle.  You can have that exquisite, multi-functional style you’ve always wanted.  Don’t worry.  We are experience with any type hair texture and thickness.  We also teach you how to maintain your hairstyle so that you can always look your best.  We offer the finest custom, personalized service in San Antonio.',
-	'At Gordiany’s Hair Salon we have a rare talent on our staff of fine hairstylists.  Larysa Gordiany, co-owner and Master Barber Stylist, has added a host of men’s barber services.  She can create any style for all ages.  We invite you to drop by our barber studio located in beautiful Los Patios in San Antonio.  We carry Johnny B and American Crew products for the best style possible.',
+	'20 years experience with thousands of clients.   Every day, new clients walk into our Hair Replacement Studio looking to change their lives.  Each has his own story and own reasons for wanting to restore the hair he used to have.  When they leave, they go back to their lives with something they thought they’d lost for good – their self-confidence and their self-esteem.',
+	'There are many choices when looking for a hair salon.  Most of the larger salons are well advertised.  But, they come at a price. They are expensive and don’t offer the real confidential and personalized service you expect and deserve.',
+	'Many of our clients have become good friends over the years.  After all, they have something very important in common; they all suffered from hair loss…and they did something about it.  Having hair has changed all of their lives for the better.  You will sense our passion for our craft and our devotion to our guests the moment you step inside our salon.',
+	'At Gordiany’s Hair Salon, George and Larysa are masters of cutting and highlighting techniques,using their unique and rare talents, will keep you in the latest fashion styles at an affordable price.  We specialize in hair styling for both men and women, design, cutting, coloring, highlighting, & hair replacement systems.',
+	'Because we are a small, private studio, we don’t have the overhead of the large. and highly-publicized companies.',
+	'We offer an entire range of options designed to meet your budget, and provide you with flexible solutions that will exceed all of your expectations.',
 ];
 
 export default () => {
@@ -15,12 +27,12 @@ export default () => {
 				<span>Why G Hair Studio?</span>
 			</div>
 			<div className="grid-container">
-				<Card text={cardTexts[0]} />
-				<Card text={cardTexts[1]} />
-				<Card text={cardTexts[2]} />
-				<Card text={cardTexts[2]} />
-				<Card text={cardTexts[2]} />
-				<Card text={cardTexts[2]} />
+				<Card header={cardHeaders[0]} text={cardTexts[0]} />
+				<Card header={cardHeaders[1]} text={cardTexts[1]} />
+				<Card header={cardHeaders[2]} text={cardTexts[2]} />
+				<Card header={cardHeaders[3]} text={cardTexts[3]} />
+				<Card header={cardHeaders[4]} text={cardTexts[4]} />
+				<Card header={cardHeaders[5]} text={cardTexts[5]} />
 			</div>
 		</div>
 	);
