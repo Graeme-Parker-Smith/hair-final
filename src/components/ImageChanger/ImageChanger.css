@@ -2,16 +2,23 @@
 	background-color: black;
     overflow-x: hidden;
 	transition: padding-top 0.25s linear;
-	padding-top: 200px;
+	padding-top: 130px;
 
+}
+
+@media all and (max-width: 800px) {
+
+	.ImageChanger {
+		padding-top: 0px;
+	}
 }
 
 .padded {
-	padding-top: 200px;
+	padding-top: 180px;
 }
 
 .slider-container {
-	background-color: pink;
+	background-color: white;
 	height: 425px;
 	position: relative;
 }

@@ -19,8 +19,9 @@ export default () => {
 		<div>
 			<header className={`header${isSticky ? ' sticky' : ' not-sticky'}`}>
 				<div>
-					<h1>The Hair Salon</h1>
-					<h5>When only the best will do</h5>
+					{/* <h1>The Hair Salon</h1>
+					<h5>When only the best will do</h5> */}
+					<img src={require('../../images/gordiany-logo.png')} alt='logo' height='105' />
 				</div>
 				<nav>
 					<span>Home</span>
