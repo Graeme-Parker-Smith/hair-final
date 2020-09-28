@@ -29,6 +29,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 50px 50px;
+	position: fixed;
 	/* animation: 1s fadein 0.5s forwards;
 	opacity: 0; */
 	color: #fff;

@@ -1,6 +1,13 @@
 .ImageChanger {
 	background-color: black;
     overflow-x: hidden;
+	transition: padding-top 0.25s linear;
+	padding-top: 200px;
+
+}
+
+.padded {
+	padding-top: 200px;
 }
 
 .slider-container {

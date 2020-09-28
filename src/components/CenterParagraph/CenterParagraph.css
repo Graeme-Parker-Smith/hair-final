@@ -1,6 +1,6 @@
 .center-paragraph {
 	text-align: center;
-	width: 60%;
+	/* width: 60%; */
 	margin: auto;
 }
 
@@ -11,5 +11,6 @@
 .center-paragraph > h2 {
     color: #af3434;
     text-align: left;
+    font-size: 34px;
 }
 
