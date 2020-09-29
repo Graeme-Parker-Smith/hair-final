@@ -26,6 +26,7 @@ header {
 	top: 0;
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 60px;
@@ -37,14 +38,86 @@ header {
 	z-index: 1000;
 }
 
-@media all and (max-width: 800px) {
-	header {
+/* @media all and (max-width: 1200px) {
+	header span {
 		display: none;
 	}
-	.ImageChanger {
-		padding-top: 0px;
+} */
+
+.hamburger {
+	cursor: pointer;
+	padding: 20px;
+}
+
+.hamburger > div {
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+	/* margin-right: 0px; */
+}
+
+@media only screen and (min-width: 900px) {
+	.hamburger {
+		display: none;
 	}
 }
+
+@media only screen and (max-width: 900px) {
+	header {
+		justify-content: flex-start;
+	}
+	.header nav {
+		position: fixed;
+		right: -145px;
+		top: 0;
+		bottom: 0;
+		background-color: black;
+		width: 250px;
+		/* -webkit-transform: translateX(50vw);
+		transform: translateX(100vw); */
+		height: 100vh;
+		flex-direction: column;
+		box-sizing: content-box;
+		/* justify-content: flex-start; */
+		/* align-items: flex-start; */
+		width: min-content;
+	}
+	.expanded {
+		transform: translateX(-160px);
+		/* margin-left: 160px; */
+	}
+}
+
+/* @media only screen and (max-width: 1200px) {
+	.header__icon {
+		position: relative;
+		display: block;
+		float: left;
+		width: 50px;
+		height: 66px;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.header__icon:after {
+		content: '';
+		position: absolute;
+		display: block;
+		width: 1rem;
+		height: 0;
+		top: 16px;
+		left: 15px;
+		box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+	}
+} */
+
+/* @media all and (max-width: 1700px) {
+	header nav {
+		float: right;
+	}
+} */
 
 @keyframes fadein {
 	100% {
@@ -106,7 +179,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	padding: 10px;
+	padding: 10px 60px;
 	font-size: 16px;
 	/* animation: 0.25s shrinkPadding 0s forwards; */
 }
@@ -114,6 +187,19 @@ header {
 .sticky img {
 	height: 50px;
 	transition: height 0.25s linear;
+}
+@media only screen and (max-width: 900px) {
+	img {
+		height: 70px;
+	}
+}
+@media only screen and (max-width: 700px) {
+	header {
+		flex-direction: column;
+		padding-left: 0;
+		margin-left: 0;
+		align-items: flex-start;
+	}
 }
 
 .sticky .header {
@@ -141,6 +227,7 @@ header h5 {
 }
 header nav {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: flex-start;
 	align-self: flex-start;
 	margin-right: -15px;
