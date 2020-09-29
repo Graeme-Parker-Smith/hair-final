@@ -30,7 +30,7 @@ export default () => {
 					<img className="img" src={state.images[0]} alt="beautiful hair" />
 					<img
 						className="img crossfade"
-						style={{ marginTop: '-425px', opacity: state.currentImage === 1 ? '100%' : '0%', transition: 'opacity 2s' }}
+						style={{ marginTop: '-36.5%', opacity: state.currentImage === 1 ? '100%' : '0%', transition: 'opacity 2s' }}
 						src={state.images[1]}
 						alt="beautiful hair"
 					/>

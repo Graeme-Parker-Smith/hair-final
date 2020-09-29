@@ -6,12 +6,12 @@
 
 }
 
-@media all and (max-width: 800px) {
+/* @media all and (max-width: 800px) {
 
 	.ImageChanger {
 		padding-top: 130px;
 	}
-}
+} */
 
 .padded {
 	padding-top: 180px;
@@ -19,8 +19,27 @@
 
 .slider-container {
 	background-color: white;
-	height: 425px;
+	height: 279px;
+	padding-bottom: 25%;
 	position: relative;
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+	.slider-container {
+		height: 425px;
+		/* padding-bottom: 0; */
+	}
+}
+@media only screen and (max-width: 600px) {
+	.slider-container {
+		height: 150px;
+	}
+
+	.ImageChanger {
+		padding-top: 170px;
+	}
 }
 
 .banner {
@@ -38,16 +57,26 @@
 
 .img-wrapper {
     position: absolute;
-    left: 50%;
+	left: 50%;
+	height: 100%;
     /* border: dotted red 1px */
 }
 .img {
-	height: 425px;
+	height: 100%;
     margin: auto;
     position: relative;
     display: block;
-    top: -50%;
+    /* top: -50%; */
     left: -50%;
-	/* object-fit: scale-down; */
+	/* object-fit: contain; */
 	/* width: 1000px; */
 }
+
+/* @media only screen and (max-width: 3000px) {
+	.img {
+		width: 100%;
+	}
+	.img-wrapper {
+		width: 100%;
+	}
+} */

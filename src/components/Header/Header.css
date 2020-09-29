@@ -65,7 +65,8 @@ header {
 
 @media only screen and (max-width: 900px) {
 	header {
-		justify-content: flex-start;
+		justify-content: flex-end;
+		flex-direction: row-reverse;
 	}
 	.header nav {
 		position: fixed;
@@ -194,11 +195,27 @@ header {
 	}
 }
 @media only screen and (max-width: 700px) {
-	header {
+	/* header {
 		flex-direction: column;
 		padding-left: 0;
 		margin-left: 0;
 		align-items: flex-start;
+		width: 100%;
+	} */
+}
+
+@media only screen and (max-width: 700px) {
+	header img {
+		width: 80%;
+	}
+
+	header {
+		flex-direction: row-reverse;
+		flex-wrap: nowrap;
+		padding-left: 0;
+		margin-left: 0;
+		align-items: flex-start;
+		width: 100%;
 	}
 }
 
