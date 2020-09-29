@@ -16,7 +16,7 @@ export default () => {
 					currentImage: state.currentImage < state.images.length - 1 ? state.currentImage + 1 : 0,
 				};
 			});
-		}, 3000);
+		}, 4500);
 
 		return () => {
 			clearInterval(interval);
@@ -30,7 +30,7 @@ export default () => {
 					<img className="img" src={state.images[0]} alt="beautiful hair" />
 					<img
 						className="img crossfade"
-						style={{ marginTop: '-36.5%', opacity: state.currentImage === 1 ? '100%' : '0%', transition: 'opacity 2s' }}
+						style={{ marginTop: '-36.5%', opacity: state.currentImage === 1 ? '100%' : '0%', transition: 'opacity 1s' }}
 						src={state.images[1]}
 						alt="beautiful hair"
 					/>

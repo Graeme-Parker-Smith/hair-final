@@ -1,6 +1,12 @@
 .card-section {
-    margin: 75px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+	/* margin: 75px; */
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 800px) {
+	.card-section {
+		flex-wrap: nowrap;
+	}
 }

@@ -1,9 +1,12 @@
 .grid-display {
-    min-height: 100vh;
-    /* max-height: 100vh; */
+	min-height: 100vh;
+	/* max-height: 100vh; */
 	background-color: chocolate;
-    background-image: url('../../images/bgHairWash.jpg');
-    background-attachment: fixed;
+	background-image: url('../../images/bgHairWash.jpg');
+	background-attachment: fixed;
+	/* background-position: 50% 50%; */
+	/* background-repeat: no-repeat; */
+	background-size: cover;
 }
 
 .grid-display span {
@@ -17,7 +20,10 @@
 	margin: 0 auto;
 	/* margin: 75px; */
 	display: flex;
-	justify-content: space-around;
+	flex-basis: 33.3333%;
+	justify-content: center;
 	flex-wrap: wrap;
+	max-width: 1450px;
+	/* align-self: center; */
 	/* width: 1275; */
 }

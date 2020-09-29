@@ -1,9 +1,10 @@
 .card {
 	/* height: 702px; */
-	width: 337px;
+	width: 346px;
 	padding: 28px;
+	margin: 50px 10px;
 	background-color: white;
-	margin: 75px;
+	/* margin: 75px; */
 	/* display: flex; */
 	/* flex-direction: column; */
 	/* justify-content: space-around; */
@@ -16,7 +17,7 @@
 }
 
 .card-img {
-	height: 350px;
+	height: 300px;
 	display: block;
 	margin: auto;
 	/* object-fit: cover; */

@@ -1,7 +1,16 @@
 .center-paragraph {
-	text-align: center;
+	text-align: left;
 	/* width: 60%; */
-	margin: auto;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 1200px) {
+	.center-paragraph {
+		width: 1200px;
+	}
 }
 
 .center-paragraph * {

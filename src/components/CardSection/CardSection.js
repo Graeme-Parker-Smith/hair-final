@@ -17,8 +17,8 @@ const cardTexts = [
 export default () => {
 	return (
 		<div className="card-section">
-			<Card imgName="curls" header={cardHeaders[0]} text={cardTexts[0]} />
-			<Card imgName="booty" header={cardHeaders[1]} text={cardTexts[1]} />
+			<Card imgName="brunette" header={cardHeaders[0]} text={cardTexts[0]} />
+			<Card imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} />
 			<Card imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} />
 		</div>
 	);
