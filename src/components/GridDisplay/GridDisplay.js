@@ -24,7 +24,7 @@ export default () => {
 	return (
 		<div className="grid-display">
 			<div style={{ textAlign: 'center' }}>
-				<span>Why G Hair Studio?</span>
+				<span>Why Gordiany Hair Studio?</span>
 			</div>
 			<div className="grid-container">
 				<Card header={cardHeaders[0]} text={cardTexts[0]} />

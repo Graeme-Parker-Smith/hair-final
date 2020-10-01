@@ -4,9 +4,9 @@ import './CenterParagraph.css';
 export default () => {
 	return (
 		<div className="center-paragraph">
-			<h2>Welcome to G’s Hair Salon</h2>
+			<h2>Welcome to Gordiany’s Hair Salon</h2>
 			<p>
-				At G’s Hair Salon we offer a relaxing environment dedicated to personalized service with the idea
+				At Gordiany’s Hair Salon we offer a relaxing environment dedicated to personalized service with the idea
 				that every client should look their individual best. We specialize in the finest dimensional foil
 				highlights and custom colors using only Scruples and Redken. Learn more about our coloring services. We
 				are very proud and excited to give our clients a rare hair-cutting technique that is different and hard

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Header.css';
 
 export default ({expanded, setExpanded}) => {
-	// const [expanded, setExpanded] = useState(false);
 	const [isSticky, setSticky] = useState(false);
 	const handleScroll = () => {
 		console.log(document.body.scrollTop);

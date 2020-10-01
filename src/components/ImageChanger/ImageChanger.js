@@ -37,7 +37,7 @@ export default () => {
 				</div>
 			</div>
 			<div className="banner">
-				<span>The G Difference</span>
+				<span>The Gordiany Difference</span>
 			</div>
 		</div>
 	);
