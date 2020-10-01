@@ -50,7 +50,7 @@ export default () => {
 					/>
 				</div>
 			</footer>
-			<footer className="footer-copyright-area">
+			<footer id="footer" className="footer-copyright-area">
 				<p>Copyright © 2020 G.com. All Rights Reserved / Website Design by G</p>
 			</footer>
 		</div>
