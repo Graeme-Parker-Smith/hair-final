@@ -37,7 +37,7 @@ export default () => {
 				<address>
 					<div>
 						<p>Call Today for an APPOINTMENT</p>
-						<h2>(210) 788-9130</h2>
+						<h2><a href="tel:2107889130">(210) 788-9130</a></h2>
 					</div>
 				</address>
 				<div>
@@ -50,7 +50,7 @@ export default () => {
 					/>
 				</div>
 			</footer>
-			<footer id="footer" className="footer-copyright-area">
+			<footer className="footer-copyright-area">
 				<p>Copyright © 2020 G.com. All Rights Reserved / Website Design by G</p>
 			</footer>
 		</div>
