@@ -27,12 +27,12 @@ export default () => {
 				<span>Why Gordiany Hair Studio?</span>
 			</div>
 			<div className="grid-container">
-				<Card header={cardHeaders[0]} text={cardTexts[0]} />
-				<Card header={cardHeaders[1]} text={cardTexts[1]} />
-				<Card header={cardHeaders[2]} text={cardTexts[2]} />
-				<Card header={cardHeaders[3]} text={cardTexts[3]} />
-				<Card header={cardHeaders[4]} text={cardTexts[4]} />
-				<Card header={cardHeaders[5]} text={cardTexts[5]} />
+				<Card headerSize='24px' headerWeight={400} header={cardHeaders[0]} text={cardTexts[0]} />
+				<Card headerSize='24px' headerWeight={400} header={cardHeaders[1]} text={cardTexts[1]} />
+				<Card headerSize='24px' headerWeight={400} header={cardHeaders[2]} text={cardTexts[2]} />
+				<Card headerSize='24px' headerWeight={400} header={cardHeaders[3]} text={cardTexts[3]} />
+				<Card headerSize='24px' headerWeight={400} header={cardHeaders[4]} text={cardTexts[4]} />
+				<Card headerSize='24px' headerWeight={400} header={cardHeaders[5]} text={cardTexts[5]} />
 			</div>
 		</div>
 	);
