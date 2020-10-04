@@ -1,12 +1,17 @@
 .grid-display {
 	min-height: 100vh;
 	/* max-height: 100vh; */
-	background-color: chocolate;
+	background-color: #ffffff;
 	background-image: url('../../images/bgHairWash.jpg');
-	background-attachment: fixed;
-	/* background-position: 50% 50%; */
-	/* background-repeat: no-repeat; */
+	background-position: center center;
+	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media only screen and (min-width: 700px) {
+	.grid-display {
+		background-attachment: fixed;
+	}
 }
 
 .grid-display span {
