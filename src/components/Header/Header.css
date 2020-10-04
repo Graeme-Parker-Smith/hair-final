@@ -65,6 +65,9 @@ header {
 		box-sizing: content-box;
 		width: min-content;
 	}
+	.header nav span {
+		margin: 2vh 0px;
+	}
 	.expanded {
 		transform: translateX(-160px);
 		/* margin-left: 160px; */
