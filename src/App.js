@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import ImageChanger from './components/ImageChanger/ImageChanger';
 import CenterParagraph from './components/CenterParagraph/CenterParagraph';
@@ -10,14 +11,30 @@ import './App.css';
 function App() {
 	const [expanded, setExpanded] = useState(false);
 
-	return (
+	const Stylists = () => (
+		<div style={{height: '200vh', backgroundColor: 'red'}}></div>
+	)
+	const Home = () => (
 		<div>
-			<Header expanded={expanded} setExpanded={setExpanded} />
 			<ImageChanger />
 			<CenterParagraph />
 			<CardSection />
 			<GridDisplay />
 			<Footer />
+		</div>
+	);
+	
+	return (
+		<div>
+		<Header expanded={expanded} setExpanded={setExpanded} />
+			<Switch>
+				<Route exact path="/stylists">
+					<Stylists />
+				</Route>
+				<Route path="/">
+					<Home />
+				</Route>
+			</Switch>
 		</div>
 	);
 }

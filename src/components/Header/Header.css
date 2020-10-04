@@ -154,6 +154,11 @@ header nav span {
 	opacity: 0;
 	animation: 1s fadein 0.5s forwards;
 	align-self: flex-start;
+
+}
+header nav span a {
+	text-decoration: none;
+	color: white;
 }
 
 header span:hover {

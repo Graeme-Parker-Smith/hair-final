@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import {Link} from 'react-router-dom';
 import './Header.css';
 
-export default ({expanded, setExpanded}) => {
+export default ({ expanded, setExpanded }) => {
 	const [isSticky, setSticky] = useState(false);
 	const handleScroll = () => {
 		console.log(document.body.scrollTop);
@@ -18,7 +19,7 @@ export default ({expanded, setExpanded}) => {
 
 	const slideMenu = () => {
 		setExpanded(!expanded);
-	}
+	};
 
 	return (
 		<div>
@@ -30,8 +31,13 @@ export default ({expanded, setExpanded}) => {
 					<img src={require('../../images/gordiany-logo.png')} alt="logo" height="105" />
 				</div>
 				<nav className={`${expanded ? 'expanded' : ''}`}>
-					<span>Home</span>
-					<span>Meet The Stylists</span>
+					<span>
+						<Link to="/">Home</Link>
+					</span>
+					<span>
+						<Link to="/stylists">Meet The Stylists</Link>
+					</span>
+					{/* <span>Meet The Stylists</span> */}
 					<span>Services</span>
 					<span>Contact</span>
 					<span>Testimonials</span>
