@@ -4,7 +4,9 @@
 	padding: 0;
 	box-sizing: border-box;
 	transition: all 0.25s linear;
+	touch-action: manipulation;
 }
+
 
 .hamburger {
 	cursor: pointer;

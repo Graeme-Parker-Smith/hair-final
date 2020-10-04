@@ -17,9 +17,9 @@ const cardTexts = [
 export default () => {
 	return (
 		<div className="card-section">
-			<Card imgName="brunette" header={cardHeaders[0]} text={cardTexts[0]} />
-			<Card imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} />
-			<Card imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} />
+			<Card imgName="brunette" header={cardHeaders[0]} text={cardTexts[0]} hasButton={true} />
+			<Card imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} hasButton={true} />
+			<Card imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true} />
 		</div>
 	);
 };
