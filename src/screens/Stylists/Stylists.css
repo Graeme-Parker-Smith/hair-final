@@ -1,0 +1,33 @@
+.screen-content {
+	text-align: left;
+	/* width: 60%; */
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.screen-content {
+		width: 1200px;
+	}
+}
+
+.screen-content * {
+    margin: 20px;
+}
+
+.screen-content > h2 {
+    color: #af3434;
+    text-align: left;
+    font-size: 34px;
+}
+
+.George p:first-child {
+    padding-left: 90px;
+}
+.George p {
+    padding-left: 120px;
+}
+
