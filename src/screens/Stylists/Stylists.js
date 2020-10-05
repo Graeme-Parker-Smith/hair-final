@@ -68,17 +68,26 @@ export default () => {
 				/>
 			</p>
 			<h2>Larysa</h2>
-			<p>
-				Larysa has been a devoted and creative stylist for over ten years. She is an international stylist that
-				has studied and worked with fashion and hair trends in Europe and in the United States.
-			</p>
-			<p>
-				<strong>Her strengths are:</strong>
-			</p>
-			<p>{`>`} Specializing in the latest women’s and men’s cut designs.</p>
-			<p>{`>`} Hair color and trent-setting highlight techniques.</p>
-			<p>{`>`} Updo hair designs for your special days.</p>
-			<p>{`>`} The rare ability to advise and consult the client in the total look</p>
+			<div>
+				<img
+					alt="Larysa"
+					src={require('../../images/Laurisa-NEW-225x300.jpg')}
+					style={{ width: '185px', height: '247px', float: 'left', marginTop: 0, marginLeft: 0 }}
+				/>
+				<p>
+					Larysa has been a devoted and creative stylist for over ten years. She is an international stylist
+					that has studied and worked with fashion and hair trends in Europe and in the United States.
+				</p>
+			</div>
+			<div className="Larysa">
+				<p>
+					<strong>Her strengths are:</strong>
+				</p>
+				<p>{`>`} Specializing in the latest women’s and men’s cut designs.</p>
+				<p>{`>`} Hair color and trent-setting highlight techniques.</p>
+				<p>{`>`} Updo hair designs for your special days.</p>
+				<p>{`>`} The rare ability to advise and consult the client in the total look</p>
+			</div>
 		</div>
 	);
 };
