@@ -1,0 +1,46 @@
+.screen-content {
+	text-align: left;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 100px;
+}
+#hair-design p {
+    font-size: 16px;
+    font-weight: 400;
+}
+#hair-design ul {
+    margin-bottom: 40px;
+}
+
+#hair-design li {
+    margin: 0;
+}
+
+.vern-container {
+    text-align: center;
+    /* #f6f6f6 */
+}
+#vern-shears {
+    height: 605px;
+    width: 280px;
+}
+
+#red-haired-woman {
+    height: 300px;
+    width: 253px;
+    float: left;
+    margin-bottom: 0;
+}
+@media only screen and (min-width: 800px) {
+    #vern-shears {
+        height: 400px;
+        width: 185px;
+        /* float: right; */
+    }
+    #hair-design {
+        display: flex;
+        align-items: center;
+    };
+}

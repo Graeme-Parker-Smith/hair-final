@@ -38,7 +38,9 @@ export default ({ expanded, setExpanded }) => {
 						<Link to="/stylists">Meet The Stylists</Link>
 					</span>
 					{/* <span>Meet The Stylists</span> */}
-					<span>Services</span>
+					<span>
+						<Link to="/hair-design">Services</Link>
+					</span>
 					<span>Contact</span>
 					<span>Testimonials</span>
 					<span>Videos</span>

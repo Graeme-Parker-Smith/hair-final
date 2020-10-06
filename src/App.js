@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './screens/Home';
 import Stylists from './screens/Stylists/Stylists';
+import HairDesign from './screens/HairDesign/HairDesign';
 import './App.css';
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
 			<Switch>
 				<Route exact path="/stylists">
 					<Stylists />
+				</Route>
+				<Route exact path="/hair-design">
+					<HairDesign />
 				</Route>
 				<Route path="/">
 					<Home />
