@@ -9,6 +9,13 @@
     align-items: center;
 }
 
+/* @media only screen and (min-width: 1200px) {
+	.footer {
+		flex-direction: row;
+		height: auto;
+	}
+} */
+
 .footer-copyright-area {
 	background-color: black;
 	color: white;

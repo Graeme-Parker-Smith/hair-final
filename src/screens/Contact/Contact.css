@@ -16,6 +16,7 @@
 	margin: 0 auto;
 	margin-bottom: 60px;
 	padding: 15px;
+	box-shadow: 0 17px 10px rgba(0, 0, 0, 0.7);
 }
 
 .contact-card * {
@@ -61,28 +62,28 @@
 .names-container-label {
 	flex: 0 100%;
 }
-.names-container-label > span:last-child {
+.names-container-label > span:nth-child(2) {
 	color: #af3434;
 }
 #email {
 	width: 100%;
 }
 .phone-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
 }
 #area-code {
-    width: 50px;
+	width: 50px;
 }
 #number {
-    width: 128px;
+	width: 128px;
 }
 .phone-container > div:nth-child(3) {
-    /* text-align: center; */
-    /* align-self: center; */
-    margin: 0px 10px 5px 10px;
+	/* text-align: center; */
+	/* align-self: center; */
+	margin: 0px 10px 5px 10px;
 }
 /* .names-container>div {
     flex: 0 50%;
@@ -91,4 +92,25 @@
 .mini-label {
 	font-size: 10px;
 	color: #8a8a8a;
+}
+
+#comment {
+	height: 100px;
+	width: 350px;
+	resize: none;
+}
+
+.preference {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.preference > span,
+.preference label {
+	margin-right: 20px;
+}
+
+.submit {
+	margin: 20px;
 }
