@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Home from './screens/Home';
 import Stylists from './screens/Stylists/Stylists';
 import HairDesign from './screens/HairDesign/HairDesign';
+import Contact from './screens/Contact/Contact';
 import './App.css';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
 				</Route>
 				<Route exact path="/hair-design">
 					<HairDesign />
+				</Route>
+				<Route exact path="/contact-us">
+					<Contact />
 				</Route>
 				<Route path="/">
 					<Home />

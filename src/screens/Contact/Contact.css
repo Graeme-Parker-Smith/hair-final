@@ -1,0 +1,94 @@
+.screen-content-2 {
+	text-align: left;
+	/* width: 60%; */
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 100px;
+}
+
+.contact-card {
+	max-width: 718px;
+	/* min-width: 388px; */
+	/* width: 80%; */
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	padding: 15px;
+}
+
+.contact-card * {
+	margin: 0 5px 20px 5px;
+}
+
+.contact-page {
+	display: flex;
+	flex-wrap: wrap;
+}
+.contact-card h1 {
+	color: #af3034;
+	text-align: center;
+	font-weight: 400;
+}
+
+.contact-card h2 {
+	font-size: 24px;
+	line-height: 27px;
+	color: #af3434;
+}
+.contact-form-container {
+	margin: 0 auto;
+	/* max-width: 418px; */
+}
+
+.contact-form-container h2 {
+	color: #af3434;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.contact-form-container input {
+	margin: 10px 0 0 0;
+	font-size: 16px;
+}
+
+.names-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.names-container-label {
+	flex: 0 100%;
+}
+.names-container-label > span:last-child {
+	color: #af3434;
+}
+#email {
+	width: 100%;
+}
+.phone-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+#area-code {
+    width: 50px;
+}
+#number {
+    width: 128px;
+}
+.phone-container > div:nth-child(3) {
+    /* text-align: center; */
+    /* align-self: center; */
+    margin: 0px 10px 5px 10px;
+}
+/* .names-container>div {
+    flex: 0 50%;
+} */
+
+.mini-label {
+	font-size: 10px;
+	color: #8a8a8a;
+}

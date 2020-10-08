@@ -41,7 +41,9 @@ export default ({ expanded, setExpanded }) => {
 					<span>
 						<Link to="/hair-design">Services</Link>
 					</span>
-					<span>Contact</span>
+					<span>
+						<Link to="/contact-us">Contact</Link>
+					</span>
 					<span>Testimonials</span>
 					<span>Videos</span>
 					<span>Opportunities</span>
