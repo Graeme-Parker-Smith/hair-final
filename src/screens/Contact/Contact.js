@@ -109,6 +109,8 @@ export default () => {
 						<CoolButton text="Reset" />
 					</div>
 				</div>
+        <img alt="salon" className="studio-img" src={require('../../images/Studio.jpg')} />
+        <img alt="salon" className="salon-img" src={require('../../images/Salon.jpeg')} />
 			</div>
 		</div>
 	);

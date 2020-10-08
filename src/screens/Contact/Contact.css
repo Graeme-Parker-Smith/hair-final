@@ -114,3 +114,19 @@
 .submit {
 	margin: 20px;
 }
+
+.studio-img {
+	max-height: 465px;
+    max-width: 620px;
+    width: 80%;
+    height: auto;
+    /* width: auto; */
+	margin: 20px;
+}
+.salon-img {
+	max-height: 216px;
+    max-width: 384px;
+    width: 80%;
+    height: auto;
+	margin: 20px;
+}
