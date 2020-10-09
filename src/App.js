@@ -7,6 +7,7 @@ import Stylists from './screens/Stylists/Stylists';
 import HairDesign from './screens/HairDesign/HairDesign';
 import Contact from './screens/Contact/Contact';
 import Opportunities from './screens/Opportunities/Opportunities';
+import Testimonials from './screens/Testimonials/Testimonials';
 import './App.css';
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
 				</Route>
 				<Route exact path="/opportunities">
 					<Opportunities />
+				</Route>
+				<Route exact path="/testimonials">
+					<Testimonials />
 				</Route>
 				<Route path="/">
 					<Home />
