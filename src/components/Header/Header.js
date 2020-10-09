@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 export default ({ expanded, setExpanded }) => {
@@ -46,7 +46,9 @@ export default ({ expanded, setExpanded }) => {
 					</span>
 					<span>Testimonials</span>
 					<span>Videos</span>
-					<span>Opportunities</span>
+					<span>
+						<Link to="/opportunities">Opportunities</Link>
+					</span>
 					<span>Search</span>
 				</nav>
 				<div className={`hamburger`} onClick={slideMenu}>
