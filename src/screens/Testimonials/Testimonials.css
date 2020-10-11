@@ -4,6 +4,7 @@
 
 #testimonials-names {
     justify-content: flex-start;
+    width: 200px;
 }
 
 .names-input,
@@ -29,3 +30,28 @@
 /* .names-input:nth-child(3) > input {
     width: 30px;
 } */
+
+@media only screen and (min-width: 800px) {
+    #testimonials-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* #testimonials-container > div {
+        margin-right: 30px;
+    } */
+    .testimonials-col-2 {
+        max-width: 30%;
+        margin-left: 40px;
+    }
+    .testimonials-col-2 input,
+    .testimonials-col-2 textarea {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .testimonials-col-2 input,
+    .testimonials-col-2 textarea {
+        max-width: 300px;
+    }
+}
