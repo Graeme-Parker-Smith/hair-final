@@ -1,0 +1,63 @@
+.review-container,
+.review-container-2 {
+    padding: 25px;
+    position: relative;
+    /* width: 200px; */
+    /* height: 100px; */
+    text-align: left;
+    /* line-height: 100px; */
+    background-color: #fff;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+    margin-bottom: 50px;
+}
+
+.review-container::before, 
+.review-container-2::before{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    /* top: 100px; */
+    bottom: -50px;
+    border: 25px solid;
+    border-color: #666 transparent transparent #666;
+}
+
+.review-container::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 38px;
+    /* top: 100px; */
+    bottom: -30px;
+
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+}
+.review-container-2::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 38px;
+    /* top: 100px; */
+    bottom: -30px;
+
+    border: 15px solid;
+    border-color: #e0e0e0 transparent transparent #e0e0e0;
+}
+
+.review-container img,
+.review-container-2 img {
+    margin: 0;
+    height: 25px;
+    width: 142px;
+}

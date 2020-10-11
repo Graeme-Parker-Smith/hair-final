@@ -1,6 +1,10 @@
 import React from 'react';
 import './Testimonials.css';
 import Review from '../../components/Review/Review';
+import CoolButton from '../../components/CoolButton/CoolButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserTie } from '@fortawesome/free-solid-svg-icons';
+import StarPicker from '../../components/StarPicker/StarPicker';
 
 const reviews = [
 	{
@@ -53,8 +57,90 @@ export default () => {
 			</p>
 			<p>Give us a call and make an appointment to come in see the difference.</p>
 			{reviews.map((review, i) => (
-				<Review backgroundColor={i % 2 === 0 ? '#e0e0e0' : '#fff'} header={review.header} text={review.text} />
+				<div>
+					<Review
+						backgroundColor={i % 2 === 0 ? '#e0e0e0' : '#fff'}
+						header={review.header}
+						text={review.text}
+					/>
+					<FontAwesomeIcon icon={faUserTie} size="3x" />
+				</div>
 			))}
+			<div>
+				<div className="contact-form-container">
+					<h2>
+						Call <a href="tel:2107889130">(210) 788-9130</a>
+					</h2>
+					<p>If you have a testimonial about your experience with us, we would love to hear from you.</p>
+					<h2>Your Testimonial</h2>
+					<form>
+						<div id="testimonials-names" className="names-container">
+							<div className="names-container-label">
+								<span>Name:</span>
+								<span>*</span>
+							</div>
+							<div className="names-input">
+								<input type="text" id="fname" name="fname" />
+								<br />
+								<label className="mini-label" for="fname">
+									First
+								</label>
+							</div>
+							<div className="names-input">
+								<input type="text" id="lname" name="lname" />
+								<br />
+								<label className="mini-label" for="lname">
+									Last Initial
+								</label>
+							</div>
+						</div>
+
+						<div>
+							<div className="names-container-label">
+								<span>e-Mail (not required)</span>
+								<span></span>
+							</div>
+							<input placeholder="We will not share your email" type="email" id="email" name="email" />
+							<br />
+							<label for="email"></label>
+						</div>
+
+						<div className="phone-container">
+							<div className="names-container-label">
+								<span>Date of Service</span>
+								<span>*</span>
+							</div>
+
+							<div>
+								<input type="date" id="number" name="number" />
+							</div>
+						</div>
+
+						<br />
+						<div className="comment-container">
+							<div className="names-container-label">
+								<span>Tell us your story.</span>
+								<span>*</span>
+							</div>
+							<textarea id="comment" name="comment"></textarea>
+						</div>
+						<br />
+
+						<div className="preference">
+							<div className="names-container-label">
+								<span>Star Rating</span>
+								<span>*</span>
+							</div>
+						</div>
+					<StarPicker />
+					</form>
+					<div className="submit">
+						{/* <input type="submit" value="Submit" /> */}
+						<CoolButton text="Submit" />
+						<CoolButton text="Reset" />
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };

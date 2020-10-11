@@ -1,3 +1,31 @@
 #testimonials-container h1 {
     color: #af3434;
 }
+
+#testimonials-names {
+    justify-content: flex-start;
+}
+
+.names-input,
+.names-input > input {
+    flex-basis: 0 50%;
+    justify-content: flex-start;
+    width: 89px;
+    /* margin: 0 20px; */
+}
+#testimonials-container input,
+#testimonials-container textarea {
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+#email {
+    width: 300px;
+}
+
+.star-icon path {
+    stroke: black;
+    stroke-width: 10;
+}
+/* .names-input:nth-child(3) > input {
+    width: 30px;
+} */

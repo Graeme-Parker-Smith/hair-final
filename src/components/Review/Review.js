@@ -10,8 +10,14 @@ export default ({
 	backgroundColor = '#fff',
 }) => {
 	return (
-		<div style={{ backgroundColor }} className="review-container">
-			<h4 style={{ fontSize: headerSize, fontWeight: headerWeight }}>{header}</h4>
+		<div style={{ backgroundColor }} className={backgroundColor === '#fff' ? "review-container" : "review-container-2"}>
+			<h4 style={{ fontSize: headerSize, fontWeight: headerWeight }}>
+        <span>
+        {header}
+        <img alt="five stars" src={require('../../images/5-stars-300x53.png')} />
+        </span>
+      </h4>
+      
 			<p>
 				<i>{text}</i>
 			</p>
