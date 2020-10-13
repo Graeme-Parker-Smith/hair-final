@@ -24,7 +24,7 @@ export default () => {
 				title="Youtube player"
 			></iframe>
 			<h1>Hair Design</h1>
-			<div>
+			<div className="video-container">
 				<iframe
 					width="350"
 					height="195"
@@ -34,75 +34,78 @@ export default () => {
 					title="Youtube player"
 					allowfullscreen
 				></iframe>
-				<h3>Long</h3>
+				<h4 className="video-label">Long Layer Razor Cut</h4>
 			</div>
-			<div>
+			<div className="video-container">
 				<iframe
 					width="350"
 					height="195"
-					src="https://www.youtube.com/embed/PdUxudCLxGE"
+					src="https://www.youtube.com/embed/Iea8HfcVgiA"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
 					title="Youtube player"
 					allowfullscreen
 				></iframe>
-				<h3>Long</h3>
+				<h4 className="video-label">Hair Design Using Vern Shears Short</h4>
 			</div>
-			<div>
+			<div className="video-container">
 				<iframe
 					width="350"
 					height="195"
-					src="https://www.youtube.com/embed/PdUxudCLxGE"
+					src="https://www.youtube.com/embed/b58c67vnoxQ"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
 					title="Youtube player"
 					allowfullscreen
 				></iframe>
-				<h3>Long</h3>
+				<h4 className="video-label">Razor Cut</h4>
 			</div>
-			<iframe
-				width="350"
-				height="195"
-				src="https://www.youtube.com/embed/Iea8HfcVgiA"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-				title="Youtube player"
-				allowfullscreen
-			></iframe>
-			<iframe
-				width="350"
-				height="195"
-				src="https://www.youtube.com/embed/b58c67vnoxQ"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-				title="Youtube player"
-				allowfullscreen
-			></iframe>
+			<h1>Barber Services</h1>
+
+			<div className="video-container">
+				<iframe
+					width="350"
+					height="195"
+					src="https://www.youtube.com/embed/3WRMgPwmOoo"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+					title="Youtube player"
+					allowfullscreen
+				></iframe>
+				<h4 className="video-label">Razor Cut</h4>
+			</div>
+			<h1>Highlights</h1>
+
+			<div className="video-container">
+				<iframe
+					width="350"
+					height="195"
+					src="https://www.youtube.com/embed/1euXAc3faUM"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+					title="Youtube player"
+					allowfullscreen
+				></iframe>
+				<h4 className="video-label">Razor Cut</h4>
+			</div>
+
+			<div className="video-container">
+				<h4 className="video-label">Razor Cut</h4>
+			</div>
+
+			<div className="video-container">
+				<h4 className="video-label">Razor Cut</h4>
+			</div>
+
+			<div className="video-container">
+				<h4 className="video-label">Razor Cut</h4>
+			</div>
+
 			<p dir="lr tb">
 				<h3>Long</h3>
 				<h3>Layer</h3>
 				<h3>Cut</h3>
 			</p>
-			<h1>Barber Services</h1>
-			<iframe
-				width="350"
-				height="195"
-				src="https://www.youtube.com/embed/3WRMgPwmOoo"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-				title="Youtube player"
-				allowfullscreen
-			></iframe>
-			<h1>Highlights</h1>
-			<iframe
-				width="350"
-				height="195"
-				src="https://www.youtube.com/embed/1euXAc3faUM"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-				title="Youtube player"
-				allowfullscreen
-			></iframe>
 			<iframe
 				width="350"
 				height="195"
