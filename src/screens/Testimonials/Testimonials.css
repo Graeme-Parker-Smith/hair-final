@@ -22,6 +22,9 @@
 #email {
     width: 300px;
 }
+#number {
+    width: 200px;
+}
 
 .star-icon path {
     stroke: black;

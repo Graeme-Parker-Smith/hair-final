@@ -1,0 +1,20 @@
+#videos-container {
+    margin-bottom: 100px;
+}
+
+.videos-header {
+    height: 250px;
+    margin-bottom: 75px;
+}
+
+#videos-container h1 {
+    color: #af3434;
+}
+
+#film-roll {
+    width: 200px;
+    height: 200px;
+    display: inline;
+    float: left;
+    margin: 15px;
+}
