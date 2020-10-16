@@ -27,7 +27,7 @@ export default () => {
 							<br />
 							<span>San Antonio, TX 78217</span>
 						</p>
-						<p>
+						<p style={{ marginTop: '20px' }}>
 							<span>
 								<strong>Hours: Mon - Sat 9am - 5pm</strong>
 							</span>
@@ -37,7 +37,9 @@ export default () => {
 				<address>
 					<div>
 						<p>Call Today for an APPOINTMENT</p>
-						<h2><a href="tel:2107889130">(210) 788-9130</a></h2>
+						<h2>
+							<a href="tel:2107889130">(210) 788-9130</a>
+						</h2>
 					</div>
 				</address>
 				<div>

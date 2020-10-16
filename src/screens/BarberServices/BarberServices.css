@@ -1,29 +1,55 @@
 #testimonials-container h1 {
-    color: #af3434;
+	color: #af3434;
 }
 
+#scissors-img {
+	float: left;
+}
+
+.barber-header {
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+.barber-header h1 {
+	color: #af3434
+}
+
+.barber-services-content ul {
+	list-style: disc;
+	margin-left: 40px;
+}
+.barber-services-content li {
+	margin: 0;
+}
+
+.barber-services-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 @media only screen and (min-width: 800px) {
-    #testimonials-container {
-        display: flex;
-        justify-content: space-between;
-    }
-    /* #testimonials-container > div {
+	#testimonials-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	/* #testimonials-container > div {
         margin-right: 30px;
     } */
-    .testimonials-col-2 {
-        max-width: 30%;
-        margin-left: 40px;
-    }
-    .testimonials-col-2 input,
-    .testimonials-col-2 textarea {
-        max-width: 200px;
-    }
+	.testimonials-col-2 {
+		max-width: 30%;
+		margin-left: 40px;
+	}
+	.testimonials-col-2 input,
+	.testimonials-col-2 textarea {
+		max-width: 200px;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
-    .testimonials-col-2 input,
-    .testimonials-col-2 textarea {
-        max-width: 300px;
-    }
+	.testimonials-col-2 input,
+	.testimonials-col-2 textarea {
+		max-width: 300px;
+	}
 }
