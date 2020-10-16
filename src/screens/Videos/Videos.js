@@ -20,9 +20,11 @@ export default () => {
 			<VideoBox src="https://www.youtube.com/embed/lfnWVVNTVQY" />
 			<h1>Hair Design</h1>
 
-			{hairDesignData.map((v) => (
-				<VideoBox src={v.url} label={v.label} />
-			))}
+			<div className="video-row">
+				{hairDesignData.map((v) => (
+					<VideoBox src={v.url} label={v.label} />
+				))}
+			</div>
 
 			<h1>Barber Services</h1>
 
@@ -30,13 +32,17 @@ export default () => {
 
 			<h1>Highlights</h1>
 
-			{highlightsData.map((v) => (
-				<VideoBox src={v.url} label={v.label} />
-			))}
+			<div className="video-row">
+				{highlightsData.map((v) => (
+					<VideoBox src={v.url} label={v.label} />
+				))}
+			</div>
 			<h1>Hair Replacement</h1>
-			{hairReplacementData.map((v) => (
-				<VideoBox src={v.url} label={v.label} />
-			))}
+			<div className="video-row">
+				{hairReplacementData.map((v) => (
+					<VideoBox src={v.url} label={v.label} />
+				))}
+			</div>
 		</div>
 	);
 };
