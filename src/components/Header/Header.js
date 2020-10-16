@@ -4,6 +4,7 @@ import './Header.css';
 
 export default ({ expanded, setExpanded }) => {
 	const [isSticky, setSticky] = useState(false);
+	const [collapsibleVisible, setCollapsibleVisible] = useState(false);
 	const handleScroll = () => {
 		console.log(document.body.scrollTop);
 		setSticky(window.pageYOffset > 20);
@@ -38,8 +39,20 @@ export default ({ expanded, setExpanded }) => {
 						<Link to="/stylists">Meet The Stylists</Link>
 					</span>
 					{/* <span>Meet The Stylists</span> */}
-					<span>
-						<Link to="/hair-design">Services</Link>
+					<span id="dropdown-hover" onClick={() => setCollapsibleVisible(!collapsibleVisible)}>
+						{/* <Link to="/hair-design">Services</Link> */}
+						Services
+						<div className={collapsibleVisible ? 'collapsible-content coll-active' : 'collapsible-content'}>
+							<span>
+								<Link to="hair-design">Hair Design</Link>
+							</span>
+							<span>
+								<Link to="/barber-services">Barber Services</Link>
+							</span>
+							<span>Highlights</span>
+							<span>Color</span>
+							<span>Hair Replacement</span>
+						</div>
 					</span>
 					<span>
 						<Link to="/contact-us">Contact</Link>
