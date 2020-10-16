@@ -161,7 +161,7 @@ header nav span a {
 	color: white;
 }
 
-header span:hover {
+header span:hover a {
 	color: yellow;
 }
 
