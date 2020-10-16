@@ -16,10 +16,11 @@ export default () => {
 					what we are all about.
 				</p>
 			</div>
+
 			<h1>General</h1>
 			<VideoBox src="https://www.youtube.com/embed/lfnWVVNTVQY" />
-			<h1>Hair Design</h1>
 
+			<h1>Hair Design</h1>
 			<div className="video-row">
 				{hairDesignData.map((v) => (
 					<VideoBox src={v.url} label={v.label} />
@@ -27,16 +28,15 @@ export default () => {
 			</div>
 
 			<h1>Barber Services</h1>
-
 			<VideoBox src="https://www.youtube.com/embed/3WRMgPwmOoo" label="Best Barber Stylist in San Antonio" />
 
 			<h1>Highlights</h1>
-
 			<div className="video-row">
 				{highlightsData.map((v) => (
 					<VideoBox src={v.url} label={v.label} />
 				))}
 			</div>
+
 			<h1>Hair Replacement</h1>
 			<div className="video-row">
 				{hairReplacementData.map((v) => (

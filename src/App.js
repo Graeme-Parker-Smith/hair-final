@@ -10,6 +10,7 @@ import Opportunities from './screens/Opportunities/Opportunities';
 import Testimonials from './screens/Testimonials/Testimonials';
 import Videos from './screens/Videos/Videos';
 import './App.css';
+import BarberServices from './screens/BarberServices/BarberServices';
 
 function App() {
 	const [expanded, setExpanded] = useState(false);
@@ -25,6 +26,9 @@ function App() {
 				</Route>
 				<Route exact path="/hair-design">
 					<HairDesign />
+				</Route>
+				<Route exact path="/barber-services">
+					<BarberServices />
 				</Route>
 				<Route exact path="/contact-us">
 					<Contact />
