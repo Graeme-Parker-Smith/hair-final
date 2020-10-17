@@ -62,17 +62,17 @@ export default () => {
 			</div>
 			<div className="barber-services-image-container">
 				<img
-					style={{ width: '245px', height: '300px' }}
+					style={{ width: '245px' }}
 					alt="hair style example"
 					src={require('../../images/Barber-Services-4-245x300.jpg')}
 				/>
 				<img
-					style={{ width: '211px', height: '300px' }}
+					style={{ width: '211px' }}
 					alt="hair style example"
 					src={require('../../images/barber-services-211x300.png')}
 				/>
 				<img
-					style={{ width: '300px', height: '300px' }}
+					style={{ width: '300px' }}
 					alt="hair style example"
 					src={require('../../images/Barber-Services-1-300x300.jpg')}
 				/>

@@ -30,6 +30,11 @@
 	/* width: 22%; */
 }
 
+.barber-services-image-container img {
+	height: auto;
+	max-width: 100%;
+}
+
 @media only screen and (min-width: 800px) {
 	#barber-services-container {
 		display: flex;
@@ -37,13 +42,9 @@
 	}
 
 	.barber-services-image-container {
-        /* max-width: 30%; */
-        width: 100%;
+		/* max-width: 30%; */
+		width: 100%;
 		margin-left: 40px;
-	}
-	.barber-services-image-container img {
-		height: auto;
-		max-width: 100%;
 	}
 	/* #testimonials-container > div {
         margin-right: 30px;
