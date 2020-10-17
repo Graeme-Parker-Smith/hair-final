@@ -77,10 +77,6 @@ export default () => {
 					src={require('../../images/Barber-Services-1-300x300.jpg')}
 				/>
 			</div>
-
-			<div className="testimonials-col-2">
-				<div className="contact-form-container"></div>
-			</div>
 		</div>
 	);
 };

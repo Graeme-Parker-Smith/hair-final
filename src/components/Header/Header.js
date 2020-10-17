@@ -49,7 +49,9 @@ export default ({ expanded, setExpanded }) => {
 							<span>
 								<Link to="/barber-services">Barber Services</Link>
 							</span>
-							<span>Highlights</span>
+							<span>
+								<Link to="/highlights">Highlights</Link>
+							</span>
 							<span>Color</span>
 							<span>Hair Replacement</span>
 						</div>

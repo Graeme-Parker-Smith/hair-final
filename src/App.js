@@ -11,6 +11,8 @@ import Testimonials from './screens/Testimonials/Testimonials';
 import Videos from './screens/Videos/Videos';
 import './App.css';
 import BarberServices from './screens/BarberServices/BarberServices';
+import Highlights from './screens/Highlights/Highlights';
+
 
 function App() {
 	const [expanded, setExpanded] = useState(false);
@@ -29,6 +31,9 @@ function App() {
 				</Route>
 				<Route exact path="/barber-services">
 					<BarberServices />
+				</Route>
+				<Route exact path="/highlights">
+					<Highlights />
 				</Route>
 				<Route exact path="/contact-us">
 					<Contact />
