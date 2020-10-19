@@ -54,66 +54,50 @@ export default () => {
 						concentrate scoops used.
 					</p>
 				</div>
-				<div>
-					<h1>Blazing Color</h1>
-					<p>
-						<strong>Blazing Highlights Toner Infused Gel-Color System</strong>
-					</p>
-					<img
-						style={{ width: '100%', height: 'auto' }}
-						alt="banner"
-						src={require('../../images/fixed_banner_4-768x287.jpg')}
-					/>
-					<p>
-						Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System. The exclusive Protective
-						Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs. PBX is a
-						blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair
-						from UV rays, and promotes a shiny, healthy, conditioned look and feel.
-					</p>
-					<p>
-						Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in
-						a single process.
-					</p>
-					<p>
-						Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule
-						and deposits color deep into hair while conditioning and creating incredible shine.
-					</p>
-					<h3>
-						<strong>Colors</strong>
-					</h3>
-					<ul>
-						<li>Warm Rich Red</li>
-						<li>Chesnut</li>
-						<li>Carmel</li>
-						<li>Honey</li>
-						<li>Warm Golden Blonde</li>
-						<li>Soft Golden Blonde</li>
-						<li>Warm Copper Blonde</li>
-						<li>Pale Vanilla Blonde</li>
-						<li>Cool Almond Blonde</li>
-						<li>Coolest Light Blonde</li>
-						<li>Cool Ultra Lite Blonde</li>
-					</ul>
-				</div>
+
 				<ProductBox
+					header="Blazing Color"
+					subHeader="Blazing Highlights Toner Infused Gel-Color System"
+					imgName={require('../../images/fixed_banner_4-768x287.jpg')}
 					textData={[
-            'Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel.',
-            'Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in a single process.',
-            'Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule and deposits color deep into hair while conditioning and creating incredible shine.'
+						'Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel.',
+						'Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in a single process.',
+						'Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule and deposits color deep into hair while conditioning and creating incredible shine.',
+					]}
+					listHeader="Colors"
+					listData={[
+						'Warm Rich Red',
+						'Chesnut',
+						'Carmel',
+						'Honey',
+						'Warm Golden Blonde',
+						'Soft Golden Blonde',
+						'Warm Copper Blonde',
+						'Pale Vanilla Blonde',
+						'Cool Almond Blonde',
+						'Coolest Light Blonde',
+						'Cool Ultra Lite Blonde',
 					]}
 				/>
 				<ProductBox
+					header="Illusionist"
+					subHeader="Illusionist Brilliant Cream Highlights – Bleach Free Product"
+					imgName={require('../../images/fixed_banner_3_2015-768x287.jpg')}
 					textData={[
-            'Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel.',
-            'Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in a single process.',
-            'Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule and deposits color deep into hair while conditioning and creating incredible shine.'
+						'Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel.',
+						'Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in a single process.',
+						'Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule and deposits color deep into hair while conditioning and creating incredible shine.',
 					]}
+					secondImg={require('../../images/298764-scruples_hair_color-300x281.png')}
 				/>
 				<ProductBox
+					header="Balayage Power Blonde"
+					subHeader="Balayage Power Blonde Clay Lightener Techniques"
+					imgName={require('../../images/fixed_banner_5_2015-768x287.jpg')}
 					textData={[
-            'Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel.',
-            'Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in a single process.',
-            'Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule and deposits color deep into hair while conditioning and creating incredible shine.'
+						'Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel.',
+						'Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in a single process.',
+						'Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule and deposits color deep into hair while conditioning and creating incredible shine.',
 					]}
 				/>
 			</div>
