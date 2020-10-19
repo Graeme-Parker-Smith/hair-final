@@ -29,15 +29,15 @@ export default () => {
 						<img alt="highlights example" src={require('../../images/Top-photo-3-260x300.jpg')} />
 						<img alt="highlights example" src={require('../../images/Unveiled_Purity_Zoe-240x300.jpg')} />
 					</div>
-					<div className="barber-header">
+					<div>
 						<img
 							id="scruples-logo"
 							alt="scruples logo"
 							src={require('../../images/scrupleslogo-300x88.png')}
 						/>
 						<h2>We Exclusively Use Scruples Products</h2>
+					<h4 style={{color: '#af3434', fontWeight: 400, fontSize: '18px'}}>Non-Bleach, Off The Scalp Highlighting</h4>
 					</div>
-					<h4>Non-Bleach, Off The Scalp Highlighting</h4>
 					<p>
 						Highlight natural or tinted hair up to 7 levels and simultaneously deposit permanent oxidation
 						hair color in a single process. Our Gordiany’s Blazing High lightening System achieves beautiful

@@ -4,6 +4,10 @@
 #highlights-container li {
     margin: 0;
 }
+#scruples-logo {
+    float: left;
+    margin-right: 20px;
+}
 
 .highlights-img-container > img {
     height: 150px;

@@ -1,3 +1,5 @@
+
+
 .ProductBox-img {
     /* height: 150px; */
     width: 100%;
@@ -7,4 +9,40 @@
 #ProductBox-img-2 {
     height: 281px;
     width: 300px;
+}
+
+@media only screen and (min-width: 800px) {
+    #ProductBox-container {
+        display: flex;
+        max-width: 100%;
+        min-height: 60vh;
+        align-items: flex-start;
+        position: relative;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+    }
+    #ProductBox-container p:first-child {
+        position: absolute;
+        left: 0;
+        top: 170px;
+        /* margin-top: 100px; */
+        width: 33%;
+        
+    }
+    #ProductBox-container p {
+        width: 80%;
+
+    }
+    #ProductBox-container ul {
+        font-size: 15px;
+    }
+    
+.ProductBox-img {
+    /* height: 150px; */
+    /* width: 100%; */
+    object-fit: contain;
+    height: auto;
+    width: 40%;
+    /* float: left; */
+}
 }
