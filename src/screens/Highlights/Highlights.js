@@ -36,7 +36,9 @@ export default () => {
 							src={require('../../images/scrupleslogo-300x88.png')}
 						/>
 						<h2>We Exclusively Use Scruples Products</h2>
-					<h4 style={{color: '#af3434', fontWeight: 400, fontSize: '18px'}}>Non-Bleach, Off The Scalp Highlighting</h4>
+						<h4 style={{ color: '#af3434', fontWeight: 400, fontSize: '18px' }}>
+							Non-Bleach, Off The Scalp Highlighting
+						</h4>
 					</div>
 					<p>
 						Highlight natural or tinted hair up to 7 levels and simultaneously deposit permanent oxidation
@@ -59,8 +61,8 @@ export default () => {
 					header="Blazing Color"
 					subHeader="Blazing Highlights Toner Infused Gel-Color System"
 					imgName={require('../../images/fixed_banner_4-768x287.jpg')}
+					mainPar="Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel."
 					textData={[
-						'Blazing Color is part of Scruples’ 3 Dimensional Customized Gel System.  The exclusive Protective Barrier Complex (PBX) shields the hair color molecule as the lifting process occurs.  PBX is a blend of 4 essential ingredients that ad moisture, that provides body and volume, protect hair from UV rays, and promotes a shiny, healthy, conditioned look and feel.',
 						'Lifts up to 7 levels through natural or color treated hair and deposits permanent hair color in a single process.',
 						'Contains Scruples’ exclusive Protective Barrier Complex (PBX), which protects the dye molecule and deposits color deep into hair while conditioning and creating incredible shine.',
 					]}
