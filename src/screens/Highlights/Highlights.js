@@ -85,8 +85,8 @@ export default () => {
 					header="Illusionist"
 					subHeader="Illusionist Brilliant Cream Highlights – Bleach Free Product"
 					imgName={require('../../images/fixed_banner_3_2015-768x287.jpg')}
+					mainPar='Brilliant cream highlights:  Amazing base breakthrough formula offers a creative lightening technique to soften the contrast between natural and highlighted hair.  It is enriched with acai berry, acacia flower extract, aloe Vera and avocado oil.  The Illusionist PBX technology surrounds and protects the dye molecule and deposits hair color deep into the hair. In addition, adds moisture-binding qualities to keep hair flexible, healthy and shiny.  It also provides strength, body and volume, and protects hair from damaging sun rays.  The result is a beautifully conditioned hair with an incredible shine.'
 					textData={[
-						'Brilliant cream highlights:  Amazing base breakthrough formula offers a creative lightening technique to soften the contrast between natural and highlighted hair.  It is enriched with acai berry, acacia flower extract, aloe Vera and avocado oil.  The Illusionist PBX technology surrounds and protects the dye molecule and deposits hair color deep into the hair. In addition, adds moisture-binding qualities to keep hair flexible, healthy and shiny.  It also provides strength, body and volume, and protects hair from damaging sun rays.  The result is a beautifully conditioned hair with an incredible shine.',
 						'You won’t believe your eyes',
 						'Controlled lift with 10 brilliant highlight selections ranging from intense reds and coppers to luminous blondes',
 						'Amazing base break formulas',
@@ -97,8 +97,8 @@ export default () => {
 					header="Balayage Power Blonde"
 					subHeader="Balayage Power Blonde Clay Lightener Techniques"
 					imgName={require('../../images/fixed_banner_5_2015-768x287.jpg')}
+					mainPar='Balayage Power Blonde clay lightener is a revolutionary new product from Scruples’ that allowing strategically freehand painted highlights around the face, similar to the art of contouring with makeup.  We are able to create light and dimension to enhance your natural features.   This unique clay lightener works to seamlessly surround hair, providing our stylists the freedom to paint with precision and create the custom color applications you want.'
 					textData={[
-						'Balayage Power Blonde clay lightener is a revolutionary new product from Scruples’ that allowing strategically freehand painted highlights around the face, similar to the art of contouring with makeup.  We are able to create light and dimension to enhance your natural features.   This unique clay lightener works to seamlessly surround hair, providing our stylists the freedom to paint with precision and create the custom color applications you want.',
 						'Used on-trend painting techniques such as: balayage, ombre, sombre, bronde and ecaille haircolor',
 						'Achieves 1–5 levels of lift with open-air processing, no foils necessary',
 						'Designed for freehand lightener application and creative color placement',
