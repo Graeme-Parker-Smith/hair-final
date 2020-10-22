@@ -22,19 +22,10 @@ export default () => {
 
 					<div className="our-method">
 						<p>
-							<strong>
-								Our method:
-							</strong>
-						</p>
-						<p>
 							<img
-								class="alignleft wp-image-7346"
-								src="http://www.gordianyhair.com/wp-content/uploads/2016/07/redken_hair_color_salon-300x79.jpg"
+								src={require("../../images/redken_hair_color_salon-768x202.jpg")}
 								alt="redken_hair_color_salon"
-								width="478"
-								height="126"
-								srcset="http://www.gordianyhair.com/wp-content/uploads/2016/07/redken_hair_color_salon-300x79.jpg 300w, http://www.gordianyhair.com/wp-content/uploads/2016/07/redken_hair_color_salon-768x202.jpg 768w, http://www.gordianyhair.com/wp-content/uploads/2016/07/redken_hair_color_salon-940x250.jpg 940w, http://www.gordianyhair.com/wp-content/uploads/2016/07/redken_hair_color_salon.jpg 950w"
-								sizes="(max-width: 478px) 100vw, 478px"
+								className="banner-img"
 							/>
 						</p>
 						<p>
