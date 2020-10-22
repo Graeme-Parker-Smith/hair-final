@@ -36,12 +36,9 @@ export default () => {
 							Texture&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp; Skin tone&nbsp;&nbsp;&nbsp;&nbsp;
 							*&nbsp;&nbsp;&nbsp; Hair condition&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp; Gray coverage
 							<img
-								class="alignright wp-image-7348"
-								src="http://www.gordianyhair.com/wp-content/uploads/2016/07/Redken-Color-Gels.jpg"
+								src={require('../../images/Redken-Color-Gels.jpg')}
 								alt="Redken-Color-Gels"
 								style={{width: 177, height: 146, float: 'right'}}
-								width="177"
-								height="146"
 							/>
 						</p>
 						<p>
@@ -57,14 +54,9 @@ export default () => {
 						<p>
 							<strong>
 								<img
-									class="alignleft wp-image-7353"
-									src="http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-300x290.png"
+									src={require('../../images/359043-357801Redken_Shades_EQ_Salon-300x290.png')}
 									alt="359043-357801Redken_Shades_EQ_Salon"
 									style={{width: 153, height: 148, float: 'left'}}
-									width="153"
-									height="148"
-									srcset="http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-52x50.png 52w, http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-300x290.png 300w, http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon.png 362w"
-									sizes="(max-width: 153px) 100vw, 153px"
 								/>
 							</strong>
 						</p>
