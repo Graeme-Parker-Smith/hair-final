@@ -55,7 +55,9 @@ export default ({ expanded, setExpanded }) => {
 							<span>
 								<Link to="/hair-color">Colors</Link>
 							</span>
-							<span>Hair Replacement</span>
+							<span>
+								<Link to="/hair-replacement">Hair Replacement</Link>
+							</span>
 						</div>
 					</span>
 					<span>

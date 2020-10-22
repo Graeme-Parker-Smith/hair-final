@@ -13,6 +13,7 @@ import './App.css';
 import BarberServices from './screens/BarberServices/BarberServices';
 import Highlights from './screens/Highlights/Highlights';
 import Colors from './screens/Colors/Colors';
+import HairReplacement from './screens/HairReplacement/HairReplacement';
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
 				</Route>
 				<Route exact path="/hair-color">
 					<Colors />
+				</Route>
+				<Route exact path="/hair-replacement">
+					<HairReplacement />
 				</Route>
 				<Route exact path="/contact-us">
 					<Contact />
