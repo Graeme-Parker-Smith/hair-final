@@ -1,5 +1,7 @@
 import React from 'react';
 import './HairReplacement.css';
+import GridDisplay from '../../components/GridDisplay/GridDisplay';
+import Card from '../../components/Card/Card';
 
 export default () => {
 	return (
@@ -84,6 +86,7 @@ export default () => {
 					</div>
 				</div>
 			</div>
+			<GridDisplay bgImage={require('../../images/dude-wall.jpg')} />
 		</div>
 	);
 };
