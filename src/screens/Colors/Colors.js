@@ -10,7 +10,7 @@ export default () => {
 						<img
 							alt="curly hair drawing"
 							src={require('../../images/icon-hair-color-big.png')}
-							style={{ height: 55, width: 71 }}
+							style={{ height: 55, width: 71}}
 						/>
 						<span style={{ fontSize: 34, color: '#af3434 ', marginLeft: '0px' }}>Hair Color</span>
 					</div>
@@ -39,6 +39,7 @@ export default () => {
 								class="alignright wp-image-7348"
 								src="http://www.gordianyhair.com/wp-content/uploads/2016/07/Redken-Color-Gels.jpg"
 								alt="Redken-Color-Gels"
+								style={{width: 177, height: 146, float: 'right'}}
 								width="177"
 								height="146"
 							/>
@@ -59,6 +60,7 @@ export default () => {
 									class="alignleft wp-image-7353"
 									src="http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-300x290.png"
 									alt="359043-357801Redken_Shades_EQ_Salon"
+									style={{width: 153, height: 148, float: 'left'}}
 									width="153"
 									height="148"
 									srcset="http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-52x50.png 52w, http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-300x290.png 300w, http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon.png 362w"
@@ -71,18 +73,19 @@ export default () => {
 							EQ will deliver results in light gray coverage, toning, correction, and low lights that give
 							your hair a wonderful shine with superior conditioning.
 						</p>
+						<br></br>
+						<br></br>
+						<br></br>
+						<br></br>
+						<br></br>
 						<h3>
 							<strong>Highlights</strong>
 						</h3>
 						<p>
 							<img
-								class="alignleft wp-image-7350"
-								src="http://www.gordianyhair.com/wp-content/uploads/2016/07/Scruples-intro-300x83.jpg"
+								className="banner-img"
+								src={require('../../images/Scruples-intro-768x213.jpg')}
 								alt="Scruples intro"
-								width="478"
-								height="132"
-								srcset="http://www.gordianyhair.com/wp-content/uploads/2016/07/Scruples-intro-300x83.jpg 300w, http://www.gordianyhair.com/wp-content/uploads/2016/07/Scruples-intro-768x213.jpg 768w, http://www.gordianyhair.com/wp-content/uploads/2016/07/Scruples-intro-1024x283.jpg 1024w"
-								sizes="(max-width: 478px) 100vw, 478px"
 							/>
 							If you want amazing highlights to give your new hair color accent, we can add that to your
 							new look.&nbsp; At Gordiany’s, we use only Scruples{' '}
@@ -97,11 +100,11 @@ export default () => {
 								look.
 							</strong>
 						</p>
-						<ul>
+						<ul style={{listStyleType: 'disc', paddingLeft: '40px'}}>
 							<li>Redken single process color and cut with intense treatment – Starting at $95.00</li>
 							<li>Scruples partial highlights and cut with intense treatment – Starting at $75.00</li>
 							<li>
-								Full head highlights and cut with intense treatmen<strong>t </strong>– Starting at
+								Full head highlights and cut with intense treatment– Starting at
 								$120.00
 							</li>
 							<li>Redken single process color with accent highlights – Starting at $115.00</li>
