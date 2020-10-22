@@ -4,113 +4,84 @@ import './HairReplacement.css';
 export default () => {
 	return (
 		<div className="screen-content">
-			<div id="hair-design">
+			<div id="hair-replacement-container">
 				<div>
 					<div style={{ display: 'flex', alignItems: 'center', marginBottom: 0 }}>
 						<img
 							alt="curly hair drawing"
 							src={require('../../images/fut-icon-66x66.jpg')}
-							style={{ height: 50, width: 50}}
+							style={{ height: 50, width: 50 }}
 						/>
-						<span style={{ fontSize: 34, color: '#af3434 ', marginLeft: '0px' }}>Hair Replacement Solutions</span>
+						<span style={{ fontSize: 34, color: '#af3434 ', marginLeft: '0px' }}>
+							Hair Replacement Solutions
+						</span>
 					</div>
 
 					<div className="our-method">
 						<p>
 							<img
-								src={require("../../images/hairstyles-for-men-with-thinning-hair-300x195.jpg")}
+								src={require('../../images/hairstyles-for-men-with-thinning-hair-300x195.jpg')}
 								alt="redken_hair_color_salon"
-								className="banner-img"
+								style={{ height: '195px', width: '300px', float: 'left' }}
 							/>
 						</p>
 						<p>
-							Your color appointment will start off with a careful consultation. We get to know client and
-							evaluate you and your hair for:
+							Most men and women have come to understand that, at some time in their life, they will
+							probably begin losing their hair, especially if there is a history of pattern baldness in
+							their family. And, while the understanding and acceptance of that fact are there, when it
+							finally begins to happen, many experience the changes in personality, confidence, and
+							lifestyle. In our society, where how you look can impact how others perceive you, hair loss
+							takes on an even more devastating role. Let’s face it, looks matter!
 						</p>
 						<p>
-							Texture&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp; Skin tone&nbsp;&nbsp;&nbsp;&nbsp;
-							*&nbsp;&nbsp;&nbsp; Hair condition&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp; Gray coverage
+							<strong>MEN</strong>&nbsp; Even more challenging is that some men start losing their hair as
+							young as twenty five or thirty, right in their prime of life when they need all the assets
+							they can get.&nbsp; At a younger age, hair loss can mean a major lack of confidence, which
+							in turn, affects every aspect of a man’s life: dating, job performance and, often, simply
+							living life to its fullest.
+						</p>
+						<p>
 							<img
-								class="alignright wp-image-7348"
-								src="http://www.gordianyhair.com/wp-content/uploads/2016/07/Redken-Color-Gels.jpg"
+								src={require('../../images/woman-hair-loss-300x198.png')}
 								alt="Redken-Color-Gels"
-								style={{width: 177, height: 146, float: 'right'}}
-								width="177"
-								height="146"
+								style={{ width: 300, height: 198, float: 'right' }}
 							/>
+							<strong>Women</strong>&nbsp; While women can experience pattern baldness, even early in
+							life, most women find loss or thinning of hair occurs for many other reasons. Regardless of
+							age, the effect on their life can be devastating.
+						</p>
+						<h2>So, what's the answer?</h2>
+						<p>
+							Just ask someone, or go online and you’ll find numerous recommendations to treat hair loss
+							including ointments, laser, wigs, and hair transplants. While hair loss is still not fully
+							understood by the medical industry, and most agree there aren’t any lotions or ointments on
+							the market that have any effect on restoring your hair. The jury is still out on the
+							effectiveness of laser treatments and wigs are….well bulky wigs.
 						</p>
 						<p>
-							After talking to you about the look you want, we’ll make a recommendation about the ideal
-							hair color formula for you. Our color selection will be according to skin tone and tones
-							that will blend with your natural base.
+							Hair transplants have been effective in some men. But, you need a lot of hair around the
+							perimeter of your head (where the hair doesn’t die off easily) to use as grafts and it is
+							very expensive. If not done correctly, it can leave permanent scaring or your head looking
+							worse than if you remained bald.
 						</p>
 						<p>
-							We use only <strong>Redken color gels</strong>.&nbsp; Redken has been the mainstay for
-							covering gray, and they have a wide selection of colors from basic to trendy that never
-							fails for clients who want long-lasting color.
+							By contrast, a well designed and custom fit Hair Replacement System provides a realistic and
+							natural looking solution without invasive surgery. Our systems are state of the art and
+							customized according to your individual preferences and lifestyle for a completely
+							undetectable appearance. This is especially true when you just want to cover a bald area or
+							thinning hair.
 						</p>
+						<h2>Seeing is believing</h2>
 						<p>
+							Give us a call and we’ll set up a FREE consultation to show you the amazing technology and
+							go over all your options.
+						</p>
+						<p style={{ textAlign: 'center' }}>
 							<strong>
-								<img
-									class="alignleft wp-image-7353"
-									src="http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-300x290.png"
-									alt="359043-357801Redken_Shades_EQ_Salon"
-									style={{width: 153, height: 148, float: 'left'}}
-									width="153"
-									height="148"
-									srcset="http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-52x50.png 52w, http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon-300x290.png 300w, http://www.gordianyhair.com/wp-content/uploads/2016/07/359043-357801Redken_Shades_EQ_Salon.png 362w"
-									sizes="(max-width: 153px) 100vw, 153px"
-								/>
+								We will match any price on a hair system in San Antonio, Austin and surrounding areas.
 							</strong>
 						</p>
-						<p>
-							<strong>Redken Shades EQ</strong> is the number one demi color line in America.&nbsp; Shades
-							EQ will deliver results in light gray coverage, toning, correction, and low lights that give
-							your hair a wonderful shine with superior conditioning.
-						</p>
-						<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
-						<br></br>
-						<h3>
-							<strong>Highlights</strong>
-						</h3>
-						<p>
-							<img
-								className="banner-img"
-								src={require('../../images/Scruples-intro-768x213.jpg')}
-								alt="Scruples intro"
-							/>
-							If you want amazing highlights to give your new hair color accent, we can add that to your
-							new look.&nbsp; At Gordiany’s, we use only Scruples{' '}
-							<strong>Blazing Highlights Toner Infused Gel-Color System</strong> to highlight your hair in
-							a single process. &nbsp;It lifts and tones in one single step.&nbsp;&nbsp; And, it requires
-							no bleaching, allowing a darker levels of beautiful highlight tones.
-						</p>
-						<p>FOR MOST COLOR APPLICATIONS WE USE BOTH PRODUCTS</p>
-						<p>
-							<strong>
-								Come in and explore hair color trends and inspiration to help you find your next new
-								look.
-							</strong>
-						</p>
-						<ul style={{listStyleType: 'disc', paddingLeft: '40px'}}>
-							<li>Redken single process color and cut with intense treatment – Starting at $95.00</li>
-							<li>Scruples partial highlights and cut with intense treatment – Starting at $75.00</li>
-							<li>
-								Full head highlights and cut with intense treatment– Starting at
-								$120.00
-							</li>
-							<li>Redken single process color with accent highlights – Starting at $115.00</li>
-						</ul>
-						<p>Full head highlights is an extra charge.</p>
 					</div>
-				</div>
-				<div className="vern-container">
-					<p>
-						
-					</p>
 				</div>
 			</div>
 		</div>
