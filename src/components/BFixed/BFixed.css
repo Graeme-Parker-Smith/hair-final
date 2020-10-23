@@ -1,0 +1,43 @@
+.BFixed-container {
+	min-height: 100vh;
+	/* max-height: 100vh; */
+	background-color: #ffffff;
+	background-image: url('../../images/bgHairWash.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* to make fixed background image work on mobile. However, it will cover entire page */
+/* .BFixed-container:before {
+	content: "";
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	z-index: -10;
+	background: url('../../images/bgHairWash.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  } */
+
+@media only screen and (min-width: 700px) {
+	.BFixed-container {
+		background-attachment: fixed;
+	}
+}
+
+
+.BFixed-container span {
+	font-size: 34px;
+	align-self: center;
+	display: inline-block;
+	color: #fff;
+	margin-top: 20px;
+}
+
