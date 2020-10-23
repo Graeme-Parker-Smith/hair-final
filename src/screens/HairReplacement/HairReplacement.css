@@ -4,3 +4,27 @@
     font-size: 24px;
     margin-bottom: 0;
 }
+
+.yes-no-list h1 {
+    color: #af3434;
+    margin: 20px;
+}
+.yes-no-list ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+
+@media only screen and (min-width: 800px) {
+    #hr-white-boxes {
+        display: flex;
+        justify-content: space-between;
+    }
+    #hr-vid-section {
+        flex-basis: 0 75%;
+        margin-right: 20px;
+    }
+    .yes-no-list {
+        max-width: 346px;
+    }
+}
