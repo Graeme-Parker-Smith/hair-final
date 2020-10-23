@@ -4,7 +4,7 @@ import BFixed from '../../components/BFixed/BFixed';
 
 export default () => {
 	return (
-		<div>
+		<div style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}>
 			<div className="screen-content">
 				<div id="hair-replacement-container">
 					<div>
@@ -90,18 +90,22 @@ export default () => {
 				</div>
 			</div>
 			<BFixed bgImage={require('../../images/dude-wall.jpg')}>
-				<h1 style={{color: 'white', textAlign: 'center', margin: '50px', paddingTop: '50px'}}>Now, Innovative Hair Loss Solutions with Proven Results</h1>
+				<h1 style={{ color: 'white', textAlign: 'center', marginBottom: '50px' }}>
+					Now, Innovative Hair Loss Solutions with Proven Results
+				</h1>
 				<div style={{ backgroundColor: 'white', width: '713px', margin: '0 auto', padding: '50px' }}>
-					<h2>Men & Women's Hair Replacement Systems</h2>
-					<iframe
-						title="men's hair replacement"
-						width="350"
-						height="195"
-						src="https://www.youtube.com/embed/qjcelxdumEk"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
+					<h2 style={{ textAlign: 'center', color: '#af3434' }}>Men & Women's Hair Replacement Systems</h2>
+					<p style={{ textAlign: 'center' }}>
+						<iframe
+							title="men's hair replacement"
+							width="350"
+							height="195"
+							src="https://www.youtube.com/embed/qjcelxdumEk"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+					</p>
 					<p>
 						Over the last 20 – 30 years, the non-surgical hair replacement industry, and the system
 						technology, has shown to provide hair for men that looks and feels totally natural at a
@@ -126,8 +130,29 @@ export default () => {
 						result is the same, changes in how you feel about yourself and how others look and feel about
 						you.
 					</p>
+					<p>
+						<iframe
+							width="350"
+							height="195"
+							title="Female Hair replacement Video"
+							src="https://www.youtube.com/embed/Z7H2STq83FM"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						Our systems are state of the art and customized according to your age, individual preferences,
+						and lifestyle for a completely undetectable appearance. This is especially true when you just
+						want to cover a bald area or thinning hair. Each are custom designed and fitted just for your
+						affected area and then carefully integrated with your existing hair. The result is a look and
+						feel that makes you look years younger and gives you back your confidence.
+					</p>
+					<p>
+						Come in and let us show you how we can make your exterior look like your feel you should look,
+						how you feel inside.
+					</p>
 				</div>
 			</BFixed>
+			
 		</div>
 	);
 };

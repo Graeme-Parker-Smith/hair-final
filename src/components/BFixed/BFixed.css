@@ -8,6 +8,10 @@
 	background-size: cover;
 }
 
+.BFixed-container p {
+	margin-bottom: 20px;
+}
+
 /* to make fixed background image work on mobile. However, it will cover entire page */
 /* .BFixed-container:before {
 	content: "";

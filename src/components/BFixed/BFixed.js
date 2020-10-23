@@ -15,6 +15,7 @@ export default ({ bgImage, ...props }) => {
 				backgroundPosition: 'center center',
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
+				padding: '50px'
 			}}
 		>
 			{props.children}

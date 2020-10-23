@@ -1,3 +1,6 @@
 #hair-replacement-container h2 {
-    color: #af3434
+    color: #af3434;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0;
 }
