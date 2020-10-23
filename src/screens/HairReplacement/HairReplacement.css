@@ -14,6 +14,10 @@
     list-style-type: disc;
 }
 
+#hr-page p {
+    margin-bottom: 20px;
+}
+
 
 @media only screen and (min-width: 800px) {
     #hr-white-boxes {

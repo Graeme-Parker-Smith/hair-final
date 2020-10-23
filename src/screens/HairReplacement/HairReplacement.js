@@ -1,10 +1,11 @@
 import React from 'react';
 import './HairReplacement.css';
 import BFixed from '../../components/BFixed/BFixed';
+import CoolButton from '../../components/CoolButton/CoolButton';
 
 export default () => {
 	return (
-		<div style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}>
+		<div id="hr-page" style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}>
 			<div className="screen-content">
 				<div id="hair-replacement-container">
 					<div>
@@ -185,6 +186,23 @@ export default () => {
 					</div>
 				</div>
 			</BFixed>
+			<div style={{ backgroundColor: '#f6f6f6', padding: '30px', margin: '50px auto', maxWidth: 1100 }}>
+				<h2 style={{ color: '#af3434', fontWeight: 400 }}>Free Consultation</h2>
+				<p>
+					Sometimes the unknown will keep you from taking that big step. you need to understand that we now
+					have amazing technology available in designing your hair replacement system.
+				</p>
+				<p>
+					Don’t give up your youthful appearance. You can have the hair you want without the wait. Call us
+					today for a FREE consultation. We will be happy to meet with you for a confidential hair and scalp
+					analysis and to discuss options which will best meet your needs. If you believe hair systems are
+					expensive, don’t look natural, or require a lot of maintenance…you’re in for a big surprise!
+				</p>
+				<h1 style={{ textAlign: 'center', color: '#af3434', fontWeight: 400 }}>Seeing Is Believing!</h1>
+				<p style={{ textAlign: 'center' }}>
+					<CoolButton />
+				</p>
+			</div>
 		</div>
 	);
 };
