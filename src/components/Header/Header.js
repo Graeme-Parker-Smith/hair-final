@@ -25,10 +25,7 @@ export default ({ expanded, setExpanded }) => {
 	return (
 		<div>
 			<header className={`header${isSticky ? ' sticky' : ' not-sticky'}`}>
-				{/* <div href="/#" class="header_icon" id="header_icon"></div> */}
 				<div>
-					{/* <h1>The Hair Salon</h1>
-					<h5>When only the best will do</h5> */}
 					<img src={require('../../images/gordiany-logo.png')} alt="logo" height="105" />
 				</div>
 				<nav className={`${expanded ? 'expanded' : ''}`}>
@@ -38,9 +35,7 @@ export default ({ expanded, setExpanded }) => {
 					<span>
 						<Link to="/stylists">Meet The Stylists</Link>
 					</span>
-					{/* <span>Meet The Stylists</span> */}
 					<span id="dropdown-hover" onClick={() => setCollapsibleVisible(!collapsibleVisible)}>
-						{/* <Link to="/hair-design">Services</Link> */}
 						Services
 						<div className={collapsibleVisible ? 'collapsible-content coll-active' : 'collapsible-content'}>
 							<span>
