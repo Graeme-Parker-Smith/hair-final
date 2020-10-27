@@ -1,13 +1,12 @@
-.grid-display {
+/* .grid-display {
 	min-height: 100vh;
-	/* max-height: 100vh; */
 	background-color: #ffffff;
 	background-image: url('../../images/bgHairWash.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-/* .grid-display:before {
+} */
+.grid-display:before {
 	content: "";
 	display: block;
 	position: fixed;
@@ -22,7 +21,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  } */
+  }
 
 @media only screen and (min-width: 700px) {
 	.grid-display {
