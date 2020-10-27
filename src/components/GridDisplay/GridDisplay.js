@@ -25,16 +25,16 @@ export default ({ bgImage }) => {
 		<div
 			className="grid-display"
 			// style={{ backgroundImage:  }}
-			style={{
-				backgroundImage: bgImage
-					? 'url(' + bgImage + ')'
-					: 'url(' + require('../../images/bgHairWash.jpg') + ')',
-				minHeight: '100vh',
-				backgroundColor: '#ffffff',
-				backgroundPosition: 'center center',
-				backgroundRepeat: 'no-repeat',
-				backgroundSize: 'cover',
-			}}
+			// style={{
+			// 	backgroundImage: bgImage
+			// 		? 'url(' + bgImage + ')'
+			// 		: 'url(' + require('../../images/bgHairWash.jpg') + ')',
+			// 	minHeight: '100vh',
+			// 	backgroundColor: '#ffffff',
+			// 	backgroundPosition: 'center center',
+			// 	backgroundRepeat: 'no-repeat',
+			// 	backgroundSize: 'cover',
+			// }}
 		>
 			<div style={{ textAlign: 'center' }}>
 				<span>Why Gordiany Hair Studio?</span>
