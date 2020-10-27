@@ -1,6 +1,5 @@
 import React from 'react';
 import CoolButton from '../../components/CoolButton/CoolButton';
-import FlippableCard from '../../components/FlippableCard/FlippableCard';
 import './Contact.css';
 
 export default () => {
@@ -114,7 +113,6 @@ export default () => {
 					<br />
 					<img alt="salon" className="studio-img" src={require('../../images/Studio.jpg')} />
 					<img alt="salon" className="salon-img" src={require('../../images/Salon.jpeg')} />
-					<FlippableCard />
 				</div>
 			</div>
 		</div>

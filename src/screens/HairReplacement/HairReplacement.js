@@ -2,6 +2,7 @@ import React from 'react';
 import './HairReplacement.css';
 import BFixed from '../../components/BFixed/BFixed';
 import CoolButton from '../../components/CoolButton/CoolButton';
+import FlippableCard from '../../components/FlippableCard/FlippableCard';
 
 export default () => {
 	return (
@@ -114,6 +115,7 @@ export default () => {
 								allowfullscreen
 							></iframe>
 						</p>
+						<FlippableCard />
 						<p>
 							Over the last 20 – 30 years, the non-surgical hair replacement industry, and the system
 							technology, has shown to provide hair for men that looks and feels totally natural at a
