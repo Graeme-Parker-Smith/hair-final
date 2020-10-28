@@ -22,20 +22,7 @@ const cardTexts = [
 
 export default ({ bgImage }) => {
 	return (
-		<div
-			className="grid-display"
-			// style={{ backgroundImage:  }}
-			// style={{
-			// 	backgroundImage: bgImage
-			// 		? 'url(' + bgImage + ')'
-			// 		: 'url(' + require('../../images/bgHairWash.jpg') + ')',
-			// 	minHeight: '100vh',
-			// 	backgroundColor: '#ffffff',
-			// 	backgroundPosition: 'center center',
-			// 	backgroundRepeat: 'no-repeat',
-			// 	backgroundSize: 'cover',
-			// }}
-		>
+		<div className="grid-display">
 			<div style={{ textAlign: 'center' }}>
 				<span>Why Gordiany Hair Studio?</span>
 			</div>
