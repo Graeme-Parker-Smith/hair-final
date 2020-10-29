@@ -23,8 +23,11 @@
     /* #f6f6f6 */
 }
 #vern-shears {
-    height: auto;
-    width: 100%;
+    height: 400px;
+        width: 185px;
+        /* transform: rotate(-90deg); */
+        float: right;
+        margin-left: 10px;
 }
 
 #red-haired-woman {
@@ -38,6 +41,7 @@
     #vern-shears {
         height: 400px;
         width: 185px;
+        transform: none;
         /* float: right; */
     }
     #hair-design {

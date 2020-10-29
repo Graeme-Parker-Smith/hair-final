@@ -6,6 +6,7 @@ export default () => {
 		<div>
 			<div id="hair-design">
 				<div>
+          <img alt="vern-shears" id="vern-shears" src={require('../../images/vernsheers.jpg')} />
 					{/* <div style={{ display: 'flex', alignItems: 'center', marginBottom: 0 }}>
 						<img
 							alt="curly hair drawing"
@@ -16,11 +17,11 @@ export default () => {
 					</div> */}
 
 					<div className="our-method">
-						<img
+						{/* <img
 							alt="red haired woman"
 							id="red-haired-woman"
 							src={require('../../images/red-head_253x300.jpg')}
-						/>
+						/> */}
 
 						<p>
 							<i>
@@ -42,9 +43,9 @@ export default () => {
 							<li>Updo Special Occasion – Starting at $45.00</li>
 							<li>*Long hair extra</li>
 						</ul>
-						<p>
+						{/* <p style={{textAlign: 'center'}}>
 							<img alt="vern-shears" id="vern-shears" src={require('../../images/vernsheers.jpg')} />
-						</p>
+						</p> */}
 					</div>
 				</div>
 				<div className="vern-container"></div>
