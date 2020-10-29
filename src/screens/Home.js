@@ -3,12 +3,13 @@ import ImageChanger from '../components/ImageChanger/ImageChanger';
 import CenterParagraph from '../components/CenterParagraph/CenterParagraph';
 import CardSection from '../components/CardSection/CardSection';
 import GridDisplay from '../components/GridDisplay/GridDisplay';
-import Stylists from './Stylists/Stylists';
+import WhoWeAre from '../components/WhoWeAre/WhoWeAre';
+
 export default () => (
 	<div>
 		<ImageChanger />
 		<CenterParagraph />
-		<Stylists />
+		<WhoWeAre />
 		<CardSection />
 		<GridDisplay />
 	</div>

@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './WhoWeAre.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+			mirror: true,
+			offset: 150,
+		});
+		AOS.refresh();
+	}, []);
 	return (
-		<div style={{color: 'white'}} className="screen-content">
-			<h2>Welcome</h2>
-			<p>
+		<div style={{ color: 'black', backgroundColor: 'white'  }} className="screen-content">
+			<h1>Who We Are</h1>
+			{/* <p>
 				Gordiany’s Hair Salon specializes in hair styling for both men and women, design, cutting, coloring,
 				highlighting, and hair replacement systems. Our Salon continues to research and implement the latest
 				styles, products and techniques available. We offer the finest custom, personalized service located in
@@ -33,8 +43,8 @@ export default () => {
 				So, if you are considering having your hair designed, colored, or simply cut, or you are dissatisfied
 				with the poor results of your current salon, finding the right place can be a daunting experience.
 			</p>
-			<p>The good news is that you have found the right place.</p>
-			<h1>
+			<p>The good news is that you have found the right place.</p> */}
+			<h1 data-aos="fade-left">
 				<span>
 					George{' '}
 					<img
@@ -44,31 +54,35 @@ export default () => {
 					/>
 				</span>
 			</h1>
-			<p>
+			<p data-aos="fade-right">
 				I am George Gordiany owner of the Gordiany’s Hair Salon in San Antonio, Texas. I have been a hairstylist
 				and salon owner for 25 years and have been helping people reach their full potential with amazing hair
 				styling results. I have developed a truly unique cutting method, an individual, unique skill by
 				attending numerous seminars and studying with the best names in the business.
 			</p>
-			<div className="George">
-				<p>
+			<div  className="George">
+				<p  data-aos="fade-up">
 					<strong>His strengths are:</strong>
 				</p>
-				<p>{`>`} A passion for learning new techniques that will take his talent to another level</p>
-				<p>{`>`} Three color dimensional highlighting</p>
-				<p>{`>`} Understanding clients texture for the best possible cut and color</p>
-				<p>{`>`} Will always listen to clients needs before he starts his design</p>
+				<p data-aos="fade-up">
+					{`>`} A passion for learning new techniques that will take his talent to another level
+				</p>
+				<p data-aos="fade-up">{`>`} Three color dimensional highlighting</p>
+				<p data-aos="fade-up">{`>`} Understanding clients texture for the best possible cut and color</p>
+				<p data-aos="fade-up">{`>`} Will always listen to clients needs before he starts his design</p>
 			</div>
-			<p>Come in and experience the possibilities.</p>
-			<p>
+			<p data-aos="fade-up">Come in and experience the possibilities.</p>
+			<p  data-aos="fade-up">
 				<img
 					alt="Owner Signature"
 					src={require('../../images/Signature.gif')}
 					style={{ width: '199px', height: '82px' }}
 				/>
 			</p>
-			<h2>Larysa</h2>
-			<div>
+			<h1 data-aos="fade-left" style={{ textAlign: 'right', marginRight: 40 }}>
+				Larysa
+			</h1>
+			<div data-aos="fade-right">
 				<img
 					alt="Larysa"
 					src={require('../../images/Laurisa-NEW-225x300.jpg')}
@@ -80,13 +94,13 @@ export default () => {
 				</p>
 			</div>
 			<div className="Larysa">
-				<p>
+				<p data-aos="fade-up">
 					<strong>Her strengths are:</strong>
 				</p>
-				<p>{`>`} Specializing in the latest women’s and men’s cut designs.</p>
-				<p>{`>`} Hair color and trent-setting highlight techniques.</p>
-				<p>{`>`} Updo hair designs for your special days.</p>
-				<p>{`>`} The rare ability to advise and consult the client in the total look</p>
+				<p data-aos="fade-up">{`>`} Specializing in the latest women’s and men’s cut designs.</p>
+				<p data-aos="fade-up">{`>`} Hair color and trent-setting highlight techniques.</p>
+				<p data-aos="fade-up">{`>`} Updo hair designs for your special days.</p>
+				<p data-aos="fade-up">{`>`} The rare ability to advise and consult the client in the total look</p>
 			</div>
 		</div>
 	);
