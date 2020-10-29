@@ -1,10 +1,12 @@
 .center-paragraph {
 	text-align: left;
 	/* width: 60%; */
-    margin: auto;
+    margin: 20px auto;
     padding-left: 15px;
     padding-right: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    padding: 20px;
 }
 
 @media only screen and (min-width: 1200px) {

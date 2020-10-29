@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './CenterParagraph.css';
+import AOS from 'aos';
+import "aos/dist/aos.css"
 
 export default () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+			mirror: true,
+			offset: 150
+		});
+		AOS.refresh();
+	}, [])
 	return (
-		<div className="center-paragraph">
+		<div data-aos="fade-up" className="center-paragraph">
 			<h2>Welcome to Gordiany’s Hair Salon</h2>
 			<p>
 				At Gordiany’s Hair Salon we offer a relaxing environment dedicated to personalized service with the idea

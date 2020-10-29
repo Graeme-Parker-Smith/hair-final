@@ -1,0 +1,40 @@
+.screen-content {
+	text-align: left;
+	/* width: 60%; */
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 100px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.screen-content {
+		width: 1200px;
+	}
+}
+
+.screen-content * {
+	margin: 0px 5px 20px 5px;
+}
+
+.screen-content > h2 {
+	color: #af3434;
+	text-align: left;
+	font-size: 34px;
+}
+
+.Larysa {
+    margin-bottom: 100px;
+    margin-top: 0;
+    display: inline-block
+}
+
+@media only screen and (min-width: 1100px) {
+	.George p:first-child, .Larysa p:first-child {
+		padding-left: 90px;
+	}
+	.George p, .Larysa p {
+		padding-left: 120px;
+	}
+}
