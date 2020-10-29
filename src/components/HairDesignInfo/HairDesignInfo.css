@@ -5,7 +5,7 @@
 	padding-right: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 100px;
-}
+} */
 #hair-design p {
     font-size: 16px;
     font-weight: 400;
@@ -20,25 +20,28 @@
 
 .vern-container {
     text-align: center;
+    /* #f6f6f6 */
 }
 #vern-shears {
-    height: 605px;
-    width: 280px;
+    height: auto;
+    width: 100%;
 }
 
 #red-haired-woman {
-    height: 300px;
-    width: 253px;
-    float: left;
+    height: auto;
+    width: 100%;
+    float: none;
+    
     margin-bottom: 0;
 }
 @media only screen and (min-width: 800px) {
     #vern-shears {
         height: 400px;
         width: 185px;
+        /* float: right; */
     }
     #hair-design {
         display: flex;
         align-items: center;
     };
-} */
+}

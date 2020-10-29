@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CoolButton.css';
 
-export default ({ text = 'Learn More' }) => {
+export default ({ text = 'Learn More', onClick }) => {
 	const [touched, setTouch] = useState(false);
 
 	const toggleTouched = () => {
@@ -17,7 +17,7 @@ export default ({ text = 'Learn More' }) => {
 	const className = touched ? 'coolbtn touched' : 'coolbtn';
 
 	return (
-		<button className={className} onMouseDown={toggleTouched} onMouseUp={handleMouseUp}>
+		<button className={className} onClick={onClick} onMouseDown={toggleTouched} onMouseUp={handleMouseUp}>
 			{text}
 		</button>
 	);

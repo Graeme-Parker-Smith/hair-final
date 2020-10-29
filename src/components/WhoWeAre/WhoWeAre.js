@@ -98,7 +98,7 @@ export default () => {
 					<strong>Her strengths are:</strong>
 				</p>
 				<p data-aos="fade-up">{`>`} Specializing in the latest women’s and men’s cut designs.</p>
-				<p data-aos="fade-up">{`>`} Hair color and trent-setting highlight techniques.</p>
+				<p data-aos="fade-up">{`>`} Hair color and trend-setting highlight techniques.</p>
 				<p data-aos="fade-up">{`>`} Updo hair designs for your special days.</p>
 				<p data-aos="fade-up">{`>`} The rare ability to advise and consult the client in the total look</p>
 			</div>
