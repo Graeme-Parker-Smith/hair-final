@@ -4,6 +4,7 @@
 	padding: 28px;
 	margin: 50px 10px;
 	background-color: white;
+	transition: all 0.5s
 	/* margin: 75px; */
 	/* display: flex; */
 	/* flex-direction: column; */

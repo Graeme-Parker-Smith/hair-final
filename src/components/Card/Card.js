@@ -35,7 +35,10 @@ export default ({
 			<p>{text}</p>
 
 			{hasButton && <CoolButton text={expanded ? 'Show Less' : 'Show More'} onClick={handleClick} />}
-			{expanded && <HairDesignInfo />}
+			
+			<div style={{ overflow: 'hidden', transition: 'max-height 0.75s ease-in-out', maxHeight: expanded ? '2000px' : 0 }}>
+				<HairDesignInfo />
+			</div>
 		</div>
 	);
 };
