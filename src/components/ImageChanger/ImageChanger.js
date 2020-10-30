@@ -4,7 +4,7 @@ import './ImageChanger.css';
 export default () => {
 	const [state, setState] = useState({
 		currentImage: 0,
-		images: [require('../../images/slider_1.jpg'), require('../../images/slider_2.jpg')],
+		images: [require('../../images/gordiany-logo.png'), require('../../images/slider_2.jpg')],
 		classes: '',
 	});
 
@@ -25,7 +25,7 @@ export default () => {
 
 	return (
 		<div className="ImageChanger">
-			<div className="slider-container">
+			<div style={{backgroundColor: 'black'}} className="slider-container">
 				<div className="img-wrapper">
 					<img className="img" src={state.images[0]} alt="beautiful hair" />
 					<img

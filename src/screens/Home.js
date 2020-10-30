@@ -4,11 +4,12 @@ import CenterParagraph from '../components/CenterParagraph/CenterParagraph';
 import CardSection from '../components/CardSection/CardSection';
 import GridDisplay from '../components/GridDisplay/GridDisplay';
 import WhoWeAre from '../components/WhoWeAre/WhoWeAre';
-import Highlights from './Highlights/Highlights';
+import Hero from '../components/Hero/Hero';
+// import Highlights from './Highlights/Highlights';
 
 export default () => (
 	<div>
-		<ImageChanger />
+		<Hero />
 		<CenterParagraph />
 		<WhoWeAre />
 		<CardSection />

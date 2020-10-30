@@ -14,7 +14,7 @@ export default ({
 			<h4 style={{ fontSize: headerSize, fontWeight: headerWeight }}>
         <span>
         {header}
-        <img alt="five stars" src={require('../../images/5-stars-300x53.png')} />
+        <img alt="five stars" />
         </span>
       </h4>
       
