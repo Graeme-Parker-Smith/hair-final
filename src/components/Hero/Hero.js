@@ -25,13 +25,10 @@ export default () => {
 
 	return (
 		<section className="hero">
-			<div className="hero-content-area">
-				<h1>Mountain Travel</h1>
-				<h3>Unmissable Adventure Tours Around The World</h3>
-				<a href="#" className="btn">
-					Contact Us Now
-				</a>
-				<img id="hero-img" src={require('../../images/gordiany-logo.png')} alt="logo" height="105" />
+			<div className="background-image">
+				<div className="hero-content-area">
+					<img id="hero-img" src={require('../../images/gordiany-logo.png')} alt="logo" height="105" />
+				</div>
 			</div>
 		</section>
 	);
