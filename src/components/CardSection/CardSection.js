@@ -20,7 +20,7 @@ export default () => {
 
 	return (
 		<div className="card-section">
-			<h1>We Do It All</h1>
+			<h1 style={{color: 'white'}}>We Do It All</h1>
 			<Card id='card-1' imgName="brunette" header={cardHeaders[0]} text={cardTexts[0]} hasButton={true} />
 			<Card id='card-2' imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} hasButton={true} />
 			<Card id='card-3' imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true} />
