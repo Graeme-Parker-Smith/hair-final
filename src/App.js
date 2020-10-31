@@ -23,7 +23,7 @@ function App() {
 
 	return (
 		<div>
-			{/* <Header expanded={expanded} setExpanded={setExpanded} /> */}
+			<Header expanded={expanded} setExpanded={setExpanded} />
 			<Switch>
 				<Route exact path="/stylists">
 					<Stylists />
