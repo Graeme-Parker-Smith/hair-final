@@ -29,16 +29,21 @@ export default ({
 		setExpanded(!expanded);
 	};
 	return (
-		<div style={{maxWidth: 1200, margin: '0 auto'}} data-aos="fade-up" id={id} className="card">
+		<div style={{ maxWidth: 1200, margin: '0 auto' }} data-aos="fade-up" id={id} className="card">
 			{imgName && <img className="card-img" src={require(`../../images/${imgName}.jpg`)} alt="beautiful hair" />}
 			<h4 style={{ fontSize: headerSize, fontWeight: headerWeight }}>{header}</h4>
 			<p>{text}</p>
 
-			{hasButton && <CoolButton text={expanded ? 'Show Less' : 'Show More'} onClick={handleClick} />}
-			
-			<div style={{ overflow: 'hidden', transition: 'max-height 0.5s ease-in-out', maxHeight: expanded ? '2000px' : 0 }}>
-				<HairDesignInfo />
-			</div>
+			{/* {hasButton && <CoolButton text={expanded ? 'Show Less' : 'Show More'} onClick={handleClick} />} */}
+
+			<HairDesignInfo />
+			<div
+				style={{
+					overflow: 'hidden',
+					transition: 'max-height 0.5s ease-in-out',
+					maxHeight: expanded ? '2000px' : 0,
+				}}
+			></div>
 		</div>
 	);
 };

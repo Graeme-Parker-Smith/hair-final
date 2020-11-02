@@ -1,12 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HairDesignInfo.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+			mirror: true,
+			offset: 150,
+		});
+		AOS.refresh();
+	}, []);
 	return (
 		<div>
 			<div id="hair-design">
 				<div>
-          <img alt="vern-shears" id="vern-shears" src={require('../../images/vernsheers.jpg')} />
+					<img
+						data-aos="fade-left"
+						alt="vern-shears"
+						id="vern-shears"
+						src={require('../../images/vernsheers.jpg')}
+					/>
 					{/* <div style={{ display: 'flex', alignItems: 'center', marginBottom: 0 }}>
 						<img
 							alt="curly hair drawing"
@@ -29,7 +44,7 @@ export default () => {
 								of a kind. I will never cut with anything else.” -- George Gordiany, Owner
 							</i>
 						</p>
-						<p>The shears allow me to:</p>
+						<span data-aos="fade-left">The shears allow me to:</span>
 						<ul>
 							<li>Create exquisite effects with no tool marks</li>
 							<li>Multi-functional, complete cutting and texturizing in one single action</li>
@@ -37,7 +52,10 @@ export default () => {
 							<li>Design on any texture hair and any thickness</li>
 						</ul>
 						<ul>
-							<li>Men’s Hair Design – Starting at $27.00</li>
+							<div style={{display: 'flex', width: '100%', justifyContent: 'space-between'}}>
+								<p data-aos="fade-right">Men’s Hair Design </p>
+								<p data-aos="fade-left">– Starting at $27.00</p>
+							</div>
 							<li>Women's Hair Design -- Starting at $48.00</li>
 							<li>Texture Perming – Starting at $95.00</li>
 							<li>Updo Special Occasion – Starting at $45.00</li>
