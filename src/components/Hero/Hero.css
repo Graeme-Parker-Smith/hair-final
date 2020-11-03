@@ -18,10 +18,13 @@
 	flex-direction: column;
 }
 .hero-content-area address {
-	margin: 30px;
+    margin: 30px;
+    font-style: normal;
+    font-size: 125%;
 }
 .hero-content-area a {
-	color: #af3434;
+    color: #af3434;
+    text-decoration: none;
 }
 .hero {
 	position: relative;

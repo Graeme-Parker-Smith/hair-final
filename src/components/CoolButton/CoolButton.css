@@ -1,7 +1,7 @@
 .coolbtn {
     background-color: #000;
     color: #fff;
-    padding: 10px 15px;
+    padding: 20px 30px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -16,4 +16,8 @@
   
   .touched {
     opacity: 0.2;
+    transform: translateY(-7px);
+    transition: all 0.5s;
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   }

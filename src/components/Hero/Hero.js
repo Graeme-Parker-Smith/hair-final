@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './Hero.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CoolButtom from '../CoolButton/CoolButton';
 
 export default () => {
 	useEffect(() => {
@@ -52,11 +53,21 @@ export default () => {
 					>
 						<div>
 							<p>Call Today for an APPOINTMENT</p>
-							<h2>
+							<h2 style={{ borderBottom: '1px solid gray', borderTop: '1px solid gray', padding: 20 }}>
 								<a href="tel:2107889130">(210) 788-9130</a>
 							</h2>
 						</div>
 					</address>
+					<div>
+						<p data-aos="fade-up" data-aos-delay="1500">
+							Or
+						</p>
+						<div data-aos="fade-up" data-aos-delay="2500">
+							<a href="#card-1">
+								<CoolButtom text="Click Here" />
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

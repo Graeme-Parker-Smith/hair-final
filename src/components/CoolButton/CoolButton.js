@@ -12,7 +12,7 @@ export default ({ text = 'Learn More', onClick }) => {
 		// Handle smooth animation when clicking without holding
 		setTimeout(() => {
 			setTouch(false);
-		}, 150);
+		}, 450);
 	};
 	const className = touched ? 'coolbtn touched' : 'coolbtn';
 
