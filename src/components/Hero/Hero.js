@@ -1,4 +1,4 @@
-import React, { useEffect }  from 'react';
+import React, { useEffect } from 'react';
 import './Hero.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -37,7 +37,26 @@ export default () => {
 		<section className="hero">
 			<div className="background-image">
 				<div className="hero-content-area">
-					<img data-aos="fade-up" id="hero-img" src={require('../../images/gordiany-logo.png')} alt="logo" height="105" />
+					<img
+						data-aos="fade-up"
+						id="hero-img"
+						src={require('../../images/gordiany-logo.png')}
+						alt="logo"
+						height="105"
+					/>
+					<address
+						data-aos="zoom-in-up"
+						data-aos-delay="500"
+						data-aos-easing="ease-in-sine"
+						data-aos-duration="750"
+					>
+						<div>
+							<p>Call Today for an APPOINTMENT</p>
+							<h2>
+								<a href="tel:2107889130">(210) 788-9130</a>
+							</h2>
+						</div>
+					</address>
 				</div>
 			</div>
 		</section>
