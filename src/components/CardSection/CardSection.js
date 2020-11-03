@@ -3,13 +3,9 @@ import './CardSection.css';
 import Card from '../Card/Card';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import HairDesignInfo from '../HairDesignInfo/HairDesignInfo';
 
-
-const cardHeaders = [
-  'HIGHLIGHTS & COLOR',
-  'HAIR DESIGNS',
-  'BARBER SERVICES',
-]
+const cardHeaders = ['HIGHLIGHTS & COLOR', 'HAIR DESIGNS', 'BARBER SERVICES'];
 
 const cardTexts = [
 	'Highlight natural or tinted hair up to 7 levels and simultaneously deposit permanent oxidation hair color in a single process. Our Gordiany’s Blazing High lightening System achieves beautiful results and ends the need to do double process bleach and tone highlights. Your color appointment will start off with a careful consultation. Our color selection will be according to skin tone and tones that will blend with your natural base.',
@@ -29,10 +25,14 @@ export default () => {
 
 	return (
 		<div className="card-section">
-			<h1 data-aos="fade-up" style={{color: 'white'}}>We Do It All</h1>
-			<Card id='card-1' imgName="brunette" header={cardHeaders[0]} text={cardTexts[0]} hasButton={true} />
-			<Card id='card-2' imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} hasButton={true} />
-			<Card id='card-3' imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true} />
+			<h1 data-aos="fade-up" style={{ color: 'white' }}>
+				We Do It All
+			</h1>
+			<Card id="card-1" imgName="brunette" header={cardHeaders[0]} text={cardTexts[0]}>
+				<HairDesignInfo />
+			</Card>
+			<Card id="card-2" imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} hasButton={true} />
+			<Card id="card-3" imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true} />
 		</div>
 	);
 };
