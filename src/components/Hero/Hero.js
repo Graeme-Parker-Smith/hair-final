@@ -53,7 +53,7 @@ export default () => {
 					>
 						<div>
 							<p>Call Today for an APPOINTMENT</p>
-							<h2 style={{ borderBottom: '1px solid gray', borderTop: '1px solid gray', padding: 20 }}>
+							<h2 style={{ borderBottom: '1px solid gray', borderTop: '1px solid gray', padding: 20, }}>
 								<a href="tel:2107889130">(210) 788-9130</a>
 							</h2>
 						</div>
@@ -63,7 +63,7 @@ export default () => {
 							Or
 						</p>
 						<div data-aos="fade-up" data-aos-delay="2500">
-							<a href="#card-1">
+							<a href="#who-we-are">
 								<CoolButtom text="Click Here" />
 							</a>
 						</div>

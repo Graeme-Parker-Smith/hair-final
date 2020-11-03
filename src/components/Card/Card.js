@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './Card.css';
-import CoolButton from '../CoolButton/CoolButton';
-import HairDesignInfo from '../HairDesignInfo/HairDesignInfo';
+// import CoolButton from '../CoolButton/CoolButton';
+// import HairDesignInfo from '../HairDesignInfo/HairDesignInfo';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -15,7 +15,7 @@ export default ({
 	id = 'card',
 	children,
 }) => {
-	const [expanded, setExpanded] = useState(false);
+	// const [expanded, setExpanded] = useState(false);
 
 	useEffect(() => {
 		AOS.init({
@@ -26,9 +26,9 @@ export default ({
 		AOS.refresh();
 	}, []);
 
-	const handleClick = () => {
-		setExpanded(!expanded);
-	};
+	// const handleClick = () => {
+	// 	setExpanded(!expanded);
+	// };
 	return (
 		<div style={{ maxWidth: 1200, margin: '0 auto' }} data-aos="fade-up" id={id} className="card">
 			{imgName && (
