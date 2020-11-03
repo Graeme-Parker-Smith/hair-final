@@ -53,22 +53,22 @@ export default () => {
 						</ul>
 						<ul>
 							<div style={{display: 'flex', width: '100%', margin: 20, justifyContent: 'space-between'}}>
-								<p data-aos="fade-right">Men’s Hair Design </p>
-								<p data-aos="fade-left">– Starting at $27.00</p>
+								<p data-aos-delay="0" data-aos="fade-right">Men’s Hair Design </p>
+								<p data-aos-delay="0" data-aos="fade-left">– Starting at $27.00</p>
 							</div>
 							<div style={{display: 'flex', width: '100%', margin: 20, justifyContent: 'space-between'}}>
-								<p data-aos="fade-right">Women's Hair Design </p>
-								<p data-aos="fade-left"> -- Starting at $48.00</p>
+								<p data-aos-delay="200" data-aos="fade-right">Women's Hair Design </p>
+								<p data-aos-delay="200" data-aos="fade-left"> -- Starting at $48.00</p>
 							</div>
 							<div style={{display: 'flex', width: '100%', margin: 20, justifyContent: 'space-between'}}>
-								<p data-aos="fade-right">Texture Perming </p>
-								<p data-aos="fade-left"> – Starting at $95.00</p>
+								<p data-aos-delay="400" data-aos="fade-right">Texture Perming </p>
+								<p data-aos-delay="400" data-aos="fade-left"> – Starting at $95.00</p>
 							</div>
 							<div style={{display: 'flex', width: '100%', margin: 20, justifyContent: 'space-between'}}>
-								<p data-aos="fade-right">Updo Special Occasion </p>
-								<p data-aos="fade-left"> – Starting at $45.00</p>
+								<p data-aos-delay="600" data-aos="fade-right">Updo Special Occasion </p>
+								<p data-aos-delay="600" data-aos="fade-left"> – Starting at $45.00</p>
 							</div>
-							<li data-aos="fade-up">*Long hair extra</li>
+							<li data-aos-delay="900" data-aos="fade-up">*Long hair extra</li>
 						</ul>
 						{/* <p style={{textAlign: 'center'}}>
 							<img alt="vern-shears" id="vern-shears" src={require('../../images/vernsheers.jpg')} />
