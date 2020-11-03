@@ -63,7 +63,7 @@ export default () => {
 							Or
 						</p>
 						<div data-aos="fade-up" data-aos-delay="2500">
-							<a href="#who-we-are">
+							<a href="#contact-form">
 								<CoolButtom text="Click Here" />
 							</a>
 						</div>
