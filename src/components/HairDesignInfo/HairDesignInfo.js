@@ -44,7 +44,7 @@ export default () => {
 								of a kind. I will never cut with anything else.” -- George Gordiany, Owner
 							</i>
 						</p>
-						<p data-aos="fade-up">The shears allow me to:</p>
+						<p data-aos="fade-left">The shears allow me to:</p>
 						<ul>
 							<li data-aos="fade-up">Create exquisite effects with no tool marks</li>
 							<li data-aos="fade-up">Multi-functional, complete cutting and texturizing in one single action</li>
