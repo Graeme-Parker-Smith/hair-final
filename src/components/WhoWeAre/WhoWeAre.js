@@ -13,8 +13,8 @@ export default () => {
 		AOS.refresh();
 	}, []);
 	return (
-		<div style={{ color: 'black', backgroundColor: 'white'  }} className="screen-content">
-			<h1>Who We Are</h1>
+		<div data-aos="fade-up" style={{ color: 'black', backgroundColor: 'white'  }} className="screen-content">
+			<h1 data-aos="fade-up">Who We Are</h1>
 			{/* <p>
 				Gordiany’s Hair Salon specializes in hair styling for both men and women, design, cutting, coloring,
 				highlighting, and hair replacement systems. Our Salon continues to research and implement the latest

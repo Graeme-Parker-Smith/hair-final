@@ -17,3 +17,11 @@ body {
 	position: relative;
 	/* overflow: hidden */
 /* } */
+
+
+/* disable horizontal scroll on page! */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

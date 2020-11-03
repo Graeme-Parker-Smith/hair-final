@@ -5,9 +5,9 @@
     }
 }
 .hero-content-area {
-    opacity: 0;
+    /* opacity: 0; */
     margin-top: 100px;
-    animation: 1s slidefade 1s forwards;
+    /* animation: 1s slidefade 1s forwards; */
     /* background-color: black; */
     height: 20%;
     /* width: auto; */
@@ -20,8 +20,10 @@
     position: relative;
     justify-content: center;
     overflow-x: hidden;
+    overflow-y: hidden;
     text-align: center;
-    min-height: 100vh;
+    height: 100vh;
+    max-height: 100vh;
     color: #fff;
     box-sizing: border-box;
     /* overflow: hidden; */
