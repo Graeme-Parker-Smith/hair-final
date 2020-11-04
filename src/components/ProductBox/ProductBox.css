@@ -26,8 +26,9 @@
 }
 #ProductBox-img-colors {
 	width: auto;
+	max-height: 90vh;
 	margin: auto;
-	object-fit: cover;
+	object-fit: contain;
 	
 }
 
