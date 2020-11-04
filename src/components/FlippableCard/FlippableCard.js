@@ -9,10 +9,10 @@ export default ({ before = require('../../images/before.png'), after = require('
 	return (
 		<div onClick={handleClick} className={isFlipped ? 'flip-container flip' : 'flip-container'}>
 			<div className="flipper">
-				<div className="front">
+				<div className="back">
 					<img alt="card front" src={before} />
 				</div>
-				<div className="back">
+				<div className="front">
 					<img alt="card back" src={after} />
 				</div>
 			</div>

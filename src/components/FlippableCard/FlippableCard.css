@@ -1,6 +1,7 @@
 .flip-container {
     perspective: 1000px;
     height: 344px;
+    margin: 30px;
   }
   .flip-container img {
       height: auto;

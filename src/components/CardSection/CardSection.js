@@ -172,19 +172,9 @@ export default () => {
 							Men & Women's Hair Replacement Systems
 						</h2>
 						<p style={{ textAlign: 'center' }}>
-							<iframe
-								title="men's hair replacement"
-								style={{ maxWidth: '100%' }}
-								width="350"
-								height="195"
-								src="https://www.youtube.com/embed/qjcelxdumEk"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen
-							></iframe>
 						</p>
 						<FlippableCard />
-						<FlippableCard before={require('../../images/hair-replacement-dark-before.png')} after={require('../../images/hair-replacement-dark-after.png')} />
+						{/* <FlippableCard before={require('../../images/hair-replacement-dark-before.png')} after={require('../../images/hair-replacement-dark-after.png')} /> */}
 						<FlippableCard before={require('../../images/hair-replacement-brown-before.png')} after={require('../../images/hair-replacement-brown-after.png')} />
 						<FlippableCard before={require('../../images/hair-replacement-blonde-before.png')} after={require('../../images/hair-replacement-blonde-after.png')} />
 						<p>
@@ -212,16 +202,6 @@ export default () => {
 							and feel about you.
 						</p>
 						<p>
-							<iframe
-								style={{ maxWidth: '100%' }}
-								width="350"
-								height="195"
-								title="Female Hair replacement Video"
-								src="https://www.youtube.com/embed/Z7H2STq83FM"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen
-							></iframe>
 							Our systems are state of the art and customized according to your age, individual
 							preferences, and lifestyle for a completely undetectable appearance. This is especially true
 							when you just want to cover a bald area or thinning hair. Each are custom designed and
