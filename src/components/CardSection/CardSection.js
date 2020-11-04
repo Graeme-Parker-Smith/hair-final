@@ -96,7 +96,7 @@ export default () => {
 							price: ' – Starting at $115.00',
 						},
 					]}
-					colorImg={require('../../images/redken-chart.PNG')}
+					colorImg={require('../../images/redken-chart-cropped.png')}
 				/>
 			</Card>
 		</div>
