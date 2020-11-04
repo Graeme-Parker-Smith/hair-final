@@ -35,58 +35,61 @@ export default () => {
 			<Card id="card-3" imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true}>
 				<div className="barber-services-content">
 					<img
+						data-aos="fade-left"
 						alt="buzz cut"
 						src={require('../../images/buzz-cut.png')}
 						style={{ float: 'right', height: 'auto', width: '50%', margin: 10 }}
 					/>
-					<p>
+					<p data-aos="fade-right">
 						<strong>Larysa does it all!</strong>
 					</p>
 					<ul>
-						<li>Buzz cut</li>
-						<li>Trendy and High Fashion</li>
-						<li>Military</li>
-						<li>Conservative Businessman</li>
-						<li>Long/Romantic</li>
+						<li data-aos="fade-right">Buzz cut</li>
+						<li data-aos="fade-right">Trendy and High Fashion</li>
+						<li data-aos="fade-right">Military</li>
+						<li data-aos="fade-right">Conservative Businessman</li>
+						<li data-aos="fade-right">Long/Romantic</li>
 					</ul>
 					<p>
 						<strong>Men's Barber Services</strong>
 					</p>
 					<ul>
-						<li>
+						<li data-aos="zoom-in">
 							Gordiany’s men’s cut includes a precision haircut, head massaging shampoo, a brush of powder
 							around your neck and a splash of aftershave.
 						</li>
-						<li>Young man’s cut. Basic haircut for youngsters.</li>
-						<li>Head Shave. We’ll make your head as smooth as a baby’s bottom</li>
+						<li data-aos="zoom-in">Young man’s cut. Basic haircut for youngsters.</li>
+						<li data-aos="zoom-in">Head Shave. We’ll make your head as smooth as a baby’s bottom</li>
 						<img
+							data-aos="fade-left"
 							alt="hot steam towel"
 							src={require('../../images/hot-towel.png')}
 							style={{ float: 'right', height: 'auto', width: '50%', clear: 'both', margin: 10 }}
 						/>
-						<li>
+						<li data-aos="zoom-in">
 							Signature 7 Step Facial Shave. Includes hot steam towels, deep cleansing facial massage,
 							moisturizing
 						</li>
-						<li>
+						<li data-aos="zoom-in">
 							Lotions, and a great close shave. So soothing we may have to wake you up when we’re done.
 						</li>
 						<img
+							data-aos="fade-left"
 							alt="beard shave"
 							src={require('../../images/relaxing-shave.png')}
 							style={{ float: 'right', height: 'auto', width: '50%', clear: 'both', margin: 10 }}
 						/>
-						<li>Beard Trims. Groom and re-line to keep it sharp.</li>
-						<li>Hi-lighting – Creative accents for the young or the young at heart.</li>
-						<li>Camouflage – Hair coloring that blends the gray away.</li>
-						<li>Father and Son package cuts.</li>
-						<li>First time sample cut.</li>
+						<li data-aos="zoom-in">Beard Trims. Groom and re-line to keep it sharp.</li>
+						<li data-aos="zoom-in">Hi-lighting – Creative accents for the young or the young at heart.</li>
+						<li data-aos="zoom-in">Camouflage – Hair coloring that blends the gray away.</li>
+						<li data-aos="zoom-in">Father and Son package cuts.</li>
+						<li data-aos="zoom-in">First time sample cut.</li>
 					</ul>
-					<p>
+					<p data-aos="zoom-in">
 						Groom’s wedding packages are also available. Barber services packages make great Birthday and
 						Holiday gifts too!
 					</p>
-					<p>Get our Barber Services Flyer and share</p>
+					<p data-aos="zoom-in">Get our Barber Services Flyer and share</p>
 				</div>
 			</Card>
 			<Card id="card-1" header={cardHeaders[0]} text={cardTexts[0]}>

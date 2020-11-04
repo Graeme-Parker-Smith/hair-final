@@ -44,6 +44,11 @@ export default () => {
 								of a kind. I will never cut with anything else.” -- George Gordiany, Owner
 							</i>
 						</p>
+						{/* <img
+							alt="no layer texture cut"
+							src={require('../../images/no-layer-texture-cut.png')}
+							style={{ float: 'left', height: 'auto', width: '50%',  margin: 10 }}
+						/> */}
 						<p data-aos="fade-left">The shears allow me to:</p>
 						<ul>
 							<li data-aos="fade-up">Create exquisite effects with no tool marks</li>
