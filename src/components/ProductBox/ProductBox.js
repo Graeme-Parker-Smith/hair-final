@@ -12,6 +12,7 @@ export default ({
 	listHeader = '',
 	listData = '',
 	secondImg = '',
+	colorImg = '',
 }) => {
 	return (
 		<div>
@@ -36,6 +37,11 @@ export default ({
 								<li>{text}</li>
 							))}
 						</ul>
+					</div>
+				)}
+				{colorImg && (
+					<div style={{width: '100%', overflowX: 'auto', margin: '20px 0'}}>
+						<img id="ProductBox-img-colors" className="ProductBox-img" alt="product" src={colorImg} />
 					</div>
 				)}
 				{secondImg && <img id="ProductBox-img-2" className="ProductBox-img" alt="product" src={secondImg} />}

@@ -51,14 +51,14 @@ export default () => {
 							<li data-aos="fade-up">Give clients softer cut and perfect blending</li>
 							<li data-aos="fade-up">Design on any texture hair and any thickness</li>
 						</ul>
-						<ul>
+						<ul style={{marginLeft: 0, marginRight: 20}}>
 							<div style={{display: 'flex', width: '100%', margin: 20, justifyContent: 'space-between'}}>
 								<p data-aos-delay="0" data-aos="fade-right">Men’s Hair Design </p>
 								<p data-aos-delay="0" data-aos="fade-left">– Starting at $27.00</p>
 							</div>
 							<div style={{display: 'flex', width: '100%', margin: 20, justifyContent: 'space-between'}}>
 								<p data-aos-delay="200" data-aos="fade-right">Women's Hair Design </p>
-								<p data-aos-delay="200" data-aos="fade-left"> -- Starting at $48.00</p>
+								<p data-aos-delay="200" data-aos="fade-left"> - Starting at $48.00</p>
 							</div>
 							<div style={{display: 'flex', width: '100%', margin: 20, justifyContent: 'space-between'}}>
 								<p data-aos-delay="400" data-aos="fade-right">Texture Perming </p>

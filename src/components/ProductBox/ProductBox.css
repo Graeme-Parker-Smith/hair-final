@@ -24,10 +24,25 @@
     max-width: 300px;
     margin-top: 60px;
 }
+#ProductBox-img-colors {
+	width: auto;
+	margin: auto;
+	object-fit: cover;
+	
+}
+
+
 
 @media only screen and (min-width: 800px) {
 	#ProductBox-container {
 		display: flex;
+		flex-wrap: wrap;
+	}
+	#ProductBox-img-colors {
+		width: auto;
+		margin: auto;
+		object-fit: cover;
+		
 	}
 	.ProductBox-first-element {
 		max-width: 50%;
