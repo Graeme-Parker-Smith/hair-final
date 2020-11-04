@@ -29,33 +29,11 @@ export default () => {
 			<h1 data-aos="fade-up" style={{ color: 'white' }}>
 				We Do It All
 			</h1>
+			<Card id="card-2" imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} hasButton={true}>
+				<HairDesignInfo />
+			</Card>
+			<Card id="card-3" imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true} />
 			<Card id="card-1" header={cardHeaders[0]} text={cardTexts[0]}>
-				<ProductBox
-					header="Redken"
-					subHeader="Color Gels and Shades EQ"
-					imgName={require('../../images/redken_hair_color_salon-768x202.jpg')}
-					mainPar="Redken has been the mainstay for covering gray, and they have a wide selection of colors from basic to trendy that never fails for clients who want long-lasting color. Redken Shades EQ is the number one demi color line in America.  Shades EQ will deliver results in light gray coverage, toning, correction, and low lights that give your hair a wonderful shine with superior conditioning."
-					listHeader="Pricing"
-					listData={[
-						{
-							text: 'Redken single process color and cut with intense treatment',
-							price: ' – Starting at $95.00',
-						},
-						{
-							text: 'Scruples partial highlights and cut with intense treatment',
-							price: ' – Starting at $75.00',
-						},
-						{
-							text: 'Full head highlights and cut with intense treatment',
-							price: ' – Starting at $120.00',
-						},
-						{
-							text: 'Redken single process color with accent highlights',
-							price: ' – Starting at $115.00',
-						},
-					]}
-					colorImg={require('../../images/redken-chart.PNG')}
-				/>
 				<ProductBox
 					header="Blazing Color"
 					subHeader="Highlights Toner Infused Gel-Color System"
@@ -94,11 +72,33 @@ export default () => {
 					]}
 					colorImg={require('../../images/power-blonde-cropped.jpg')}
 				/>
+				<ProductBox
+					header="Redken"
+					subHeader="Color Gels and Shades EQ"
+					imgName={require('../../images/redken_hair_color_salon-768x202.jpg')}
+					mainPar="Redken has been the mainstay for covering gray, and they have a wide selection of colors from basic to trendy that never fails for clients who want long-lasting color. Redken Shades EQ is the number one demi color line in America.  Shades EQ will deliver results in light gray coverage, toning, correction, and low lights that give your hair a wonderful shine with superior conditioning."
+					listHeader="Pricing"
+					listData={[
+						{
+							text: 'Redken single process color and cut with intense treatment',
+							price: ' – Starting at $95.00',
+						},
+						{
+							text: 'Scruples partial highlights and cut with intense treatment',
+							price: ' – Starting at $75.00',
+						},
+						{
+							text: 'Full head highlights and cut with intense treatment',
+							price: ' – Starting at $120.00',
+						},
+						{
+							text: 'Redken single process color with accent highlights',
+							price: ' – Starting at $115.00',
+						},
+					]}
+					colorImg={require('../../images/redken-chart.PNG')}
+				/>
 			</Card>
-			<Card id="card-2" imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} hasButton={true}>
-				<HairDesignInfo />
-			</Card>
-			<Card id="card-3" imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true} />
 		</div>
 	);
 };
