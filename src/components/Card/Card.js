@@ -7,8 +7,8 @@ import 'aos/dist/aos.css';
 
 export default ({
 	imgName = false,
-	header = 'Hello',
-	text = 'Hello',
+	header = '',
+	text = '',
 	hasButton = false,
 	headerSize = '16px',
 	headerWeight = 700,
