@@ -32,7 +32,63 @@ export default () => {
 			<Card id="card-2" imgName="android-girl" header={cardHeaders[1]} text={cardTexts[1]} hasButton={true}>
 				<HairDesignInfo />
 			</Card>
-			<Card id="card-3" imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true} />
+			<Card id="card-3" imgName="guy-hair" header={cardHeaders[2]} text={cardTexts[2]} hasButton={true}>
+				<div className="barber-services-content">
+					<img
+						alt="buzz cut"
+						src={require('../../images/buzz-cut.png')}
+						style={{ float: 'right', height: 'auto', width: '50%', margin: 10 }}
+					/>
+					<p>
+						<strong>Larysa does it all!</strong>
+					</p>
+					<ul>
+						<li>Buzz cut</li>
+						<li>Trendy and High Fashion</li>
+						<li>Military</li>
+						<li>Conservative Businessman</li>
+						<li>Long/Romantic</li>
+					</ul>
+					<p>
+						<strong>Men's Barber Services</strong>
+					</p>
+					<ul>
+						<li>
+							Gordiany’s men’s cut includes a precision haircut, head massaging shampoo, a brush of powder
+							around your neck and a splash of aftershave.
+						</li>
+						<li>Young man’s cut. Basic haircut for youngsters.</li>
+						<li>Head Shave. We’ll make your head as smooth as a baby’s bottom</li>
+						<img
+							alt="hot steam towel"
+							src={require('../../images/hot-towel.png')}
+							style={{ float: 'right', height: 'auto', width: '50%', clear: 'both', margin: 10 }}
+						/>
+						<li>
+							Signature 7 Step Facial Shave. Includes hot steam towels, deep cleansing facial massage,
+							moisturizing
+						</li>
+						<li>
+							Lotions, and a great close shave. So soothing we may have to wake you up when we’re done.
+						</li>
+						<img
+							alt="beard shave"
+							src={require('../../images/relaxing-shave.png')}
+							style={{ float: 'right', height: 'auto', width: '50%', clear: 'both', margin: 10 }}
+						/>
+						<li>Beard Trims. Groom and re-line to keep it sharp.</li>
+						<li>Hi-lighting – Creative accents for the young or the young at heart.</li>
+						<li>Camouflage – Hair coloring that blends the gray away.</li>
+						<li>Father and Son package cuts.</li>
+						<li>First time sample cut.</li>
+					</ul>
+					<p>
+						Groom’s wedding packages are also available. Barber services packages make great Birthday and
+						Holiday gifts too!
+					</p>
+					<p>Get our Barber Services Flyer and share</p>
+				</div>
+			</Card>
 			<Card id="card-1" header={cardHeaders[0]} text={cardTexts[0]}>
 				<ProductBox
 					header="Blazing Color"
