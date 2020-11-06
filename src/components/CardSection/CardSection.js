@@ -161,7 +161,7 @@ export default () => {
 			</Card>
 			<Card id="card-4" header="Hair Replacement">
 					{/* <FlippableCard data-aos="fade-up" before={require('../../images/hair-replacement-dark-before.png')} after={require('../../images/hair-replacement-dark-after.png')} /> */}
-				<h1 style={{ textAlign: 'center', marginBottom: '50px' }}>
+				<h1 data-aos="fade-up" style={{ textAlign: 'center', marginBottom: '50px' }}>
 					Now, Innovative Hair Loss Solutions with Proven Results
 				</h1>
 				<div id="hr-white-boxes">
@@ -169,12 +169,10 @@ export default () => {
 						id="hr-vid-section"
 						style={{ backgroundColor: 'white', maxWidth: '713px', margin: '0 auto', padding: '50px' }}
 					>
-						<h2 style={{ textAlign: 'center', color: '#af3434' }}>
+						<h2 data-aos="fade-up" style={{ textAlign: 'center', color: '#af3434' }}>
 							Men & Women's Hair Replacement Systems
 						</h2>
-						<p style={{ textAlign: 'center' }}>
-						</p>
-						<p data-aos="fade-left">
+						<p data-aos="fade-up">
 							Over the last 20 – 30 years, the non-surgical hair replacement industry, and the system
 							technology, has shown to provide hair for men that looks and feels totally natural at a
 							reasonable cost. Non-surgical hair replacement works by applying a light, transparent
@@ -184,7 +182,7 @@ export default () => {
 							to your own hair, in terms of density, color and direction.
 						</p>
 						<FlippableCard />
-						<p data-aos="fade-left">
+						<p data-aos="fade-up">
 							Unlike wigs or hair pieces, custom Hair Systems become part of you – not something you wear.
 							When properly layered and styled, it truly is a cosmetic miracle. It is virtually
 							undetectable. And, because it is temporarily affixed to your scalp with medical adhesive or
@@ -192,7 +190,7 @@ export default () => {
 							exercise, swim, or do any normal activities you would if you still had your own hair.
 						</p>
 						<FlippableCard before={require('../../images/hair-replacement-brown-before.png')} after={require('../../images/hair-replacement-brown-after.png')} />
-						<p>
+						<p data-aos="fade-up">
 							Here at Hair Replacements by George Gordiany, we understand what hair loss can mean to men
 							and women of all ages and the impact that loss can have on your confidence and life. With 20
 							years of experience, we are recognized experts at dealing with all types of hair loss; male
@@ -200,7 +198,7 @@ export default () => {
 							cause, the result is the same, changes in how you feel about yourself and how others look
 							and feel about you.
 						</p>
-						<p>
+						<p data-aos="fade-up">
 							Our systems are state of the art and customized according to your age, individual
 							preferences, and lifestyle for a completely undetectable appearance. This is especially true
 							when you just want to cover a bald area or thinning hair. Each are custom designed and
@@ -209,7 +207,7 @@ export default () => {
 							confidence.
 						</p>
 						<FlippableCard before={require('../../images/hair-replacement-blonde-before.png')} after={require('../../images/hair-replacement-blonde-after.png')} />
-						<p>
+						<p data-aos="fade-up">
 							Come in and let us show you how we can make your exterior look like your feel you should
 							look, how you feel inside.
 						</p>
@@ -218,20 +216,20 @@ export default () => {
 						className="yes-no-list"
 						style={{ backgroundColor: 'white', maxWidth: '346px', margin: '50px auto', padding: '50px' }}
 					>
-						<h1>NO</h1>
+						<h1 data-aos="fade-up">NO</h1>
 						<ul>
-							<li>No Lumps, bumps or detectable hairlines.</li>
-							<li>No daily maintenance other than shampoo, condition, and comb.</li>
-							<li>No checking in the mirror every 5 minutes.</li>
-							<li>No worrying when it rains or you swim or take a shower.</li>
+							<li data-aos="fade-up">No Lumps, bumps or detectable hairlines.</li>
+							<li data-aos="fade-up">No daily maintenance other than shampoo, condition, and comb.</li>
+							<li data-aos="fade-up">No checking in the mirror every 5 minutes.</li>
+							<li data-aos="fade-up">No worrying when it rains or you swim or take a shower.</li>
 						</ul>
-						<h1>YES</h1>
+						<h1 data-aos="fade-up">YES</h1>
 						<ul>
-							<li>Any hair color, texture, and style hair you want.</li>
-							<li>Completely natural look and feel.</li>
-							<li>Match your existing hair style or create a totally new one for the first time.</li>
-							<li>You will look great 24/7</li>
-							<li>
+							<li data-aos="fade-up">Any hair color, texture, and style hair you want.</li>
+							<li data-aos="fade-up">Completely natural look and feel.</li>
+							<li data-aos="fade-up">Match your existing hair style or create a totally new one for the first time.</li>
+							<li data-aos="fade-up">You will look great 24/7</li>
+							<li data-aos="fade-up">
 								Full head of natural hair and the style you want after your first session, or gradually
 								add hair as if your real hair is coming back.
 							</li>
