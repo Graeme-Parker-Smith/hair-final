@@ -38,6 +38,7 @@ export default () => {
 		<section className="hero">
 			<div className="background-image">
 				<div className="hero-content-area">
+					<span style={{fontSize: 10, marginBottom: 50}}>Demo Site. Not (yet) for commercial use.</span>
 					<img
 						data-aos="fade-up"
 						id="hero-img"

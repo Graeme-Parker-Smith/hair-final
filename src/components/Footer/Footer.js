@@ -53,7 +53,7 @@ export default () => {
 				</div>
 			</footer>
 			<footer className="footer-copyright-area">
-				<p>Copyright © 2020 G.com. All Rights Reserved / Website Design by G</p>
+				<p>Demo Site created by Graeme Smith. Not (yet) for commercial use.</p>
 			</footer>
 		</div>
 	);
