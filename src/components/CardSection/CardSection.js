@@ -160,6 +160,7 @@ export default () => {
 				/>
 			</Card>
 			<Card id="card-4" header="Hair Replacement">
+					{/* <FlippableCard data-aos="fade-up" before={require('../../images/hair-replacement-dark-before.png')} after={require('../../images/hair-replacement-dark-after.png')} /> */}
 				<h1 style={{ textAlign: 'center', marginBottom: '50px' }}>
 					Now, Innovative Hair Loss Solutions with Proven Results
 				</h1>
@@ -173,11 +174,7 @@ export default () => {
 						</h2>
 						<p style={{ textAlign: 'center' }}>
 						</p>
-						<FlippableCard />
-						{/* <FlippableCard before={require('../../images/hair-replacement-dark-before.png')} after={require('../../images/hair-replacement-dark-after.png')} /> */}
-						<FlippableCard before={require('../../images/hair-replacement-brown-before.png')} after={require('../../images/hair-replacement-brown-after.png')} />
-						<FlippableCard before={require('../../images/hair-replacement-blonde-before.png')} after={require('../../images/hair-replacement-blonde-after.png')} />
-						<p>
+						<p data-aos="fade-left">
 							Over the last 20 – 30 years, the non-surgical hair replacement industry, and the system
 							technology, has shown to provide hair for men that looks and feels totally natural at a
 							reasonable cost. Non-surgical hair replacement works by applying a light, transparent
@@ -186,13 +183,15 @@ export default () => {
 							creates a very natural looking effect as the hair in the membrane can be matched perfectly
 							to your own hair, in terms of density, color and direction.
 						</p>
-						<p>
+						<FlippableCard />
+						<p data-aos="fade-left">
 							Unlike wigs or hair pieces, custom Hair Systems become part of you – not something you wear.
 							When properly layered and styled, it truly is a cosmetic miracle. It is virtually
 							undetectable. And, because it is temporarily affixed to your scalp with medical adhesive or
 							tape, the only things you have to do is wash, condition and comb it every day. You can
 							exercise, swim, or do any normal activities you would if you still had your own hair.
 						</p>
+						<FlippableCard before={require('../../images/hair-replacement-brown-before.png')} after={require('../../images/hair-replacement-brown-after.png')} />
 						<p>
 							Here at Hair Replacements by George Gordiany, we understand what hair loss can mean to men
 							and women of all ages and the impact that loss can have on your confidence and life. With 20
@@ -209,6 +208,7 @@ export default () => {
 							The result is a look and feel that makes you look years younger and gives you back your
 							confidence.
 						</p>
+						<FlippableCard before={require('../../images/hair-replacement-blonde-before.png')} after={require('../../images/hair-replacement-blonde-after.png')} />
 						<p>
 							Come in and let us show you how we can make your exterior look like your feel you should
 							look, how you feel inside.
