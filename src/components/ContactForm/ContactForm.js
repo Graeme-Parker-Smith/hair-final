@@ -1,14 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './ContactForm.css';
 import CoolButton from '../CoolButton/CoolButton';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1500,
+			mirror: true,
+			offset: 150,
+		});
+		AOS.refresh();
+	}, []);
 	return (
-		<div id="contact-form" className="contact-form-container">
-			<h2>Call (210) 788-9130</h2>
-			<h2>or Send Us a Request</h2>
-			<form>
-				<div className="names-container">
+		<div data-aos="fade-up" id="contact-form" className="contact-form-container">
+			<h2 data-aos="fade-up">Call (210) 788-9130</h2>
+			<h2 data-aos="fade-up">or Send Us a Request</h2>
+			<form data-aos="fade-up">
+				<div data-aos="fade-up" className="names-container">
 					<div className="names-container-label">
 						<span>Name:</span>
 						<span>*</span>
@@ -30,7 +40,7 @@ export default () => {
 				</div>
 
 				<br />
-				<div className="names-container-label">
+				<div data-aos="fade-up" className="names-container-label">
 					<span>Email:</span>
 					<span>*</span>
 				</div>
@@ -39,7 +49,7 @@ export default () => {
 				<label for="email"></label>
 				<br />
 
-				<div className="phone-container">
+				<div data-aos="fade-up" className="phone-container">
 					<div className="names-container-label">
 						<span>Phone:</span>
 						<span>*</span>
@@ -53,7 +63,7 @@ export default () => {
 					</div>
 					{/* <br /> */}
 					<div>-</div>
-					<div>
+					<div data-aos="fade-up">
 						<input type="text" id="number" name="number" />
 						<br />
 						<label className="mini-label" for="number">
@@ -64,7 +74,7 @@ export default () => {
 				</div>
 
 				<br />
-				<div className="comment-container">
+				<div data-aos="fade-up" className="comment-container">
 					<div className="names-container-label">
 						<span>How can we help?</span>
 						<span>*</span>
@@ -73,7 +83,7 @@ export default () => {
 				</div>
 				<br />
 
-				<div className="preference">
+				<div data-aos="fade-up" className="preference">
 					<span>Best Time to Call:</span>
 					<div>
 						<div>
@@ -87,7 +97,7 @@ export default () => {
 					</div>
 				</div>
 			</form>
-			<div className="submit">
+			<div data-aos="fade-up" className="submit">
 				{/* <input type="submit" value="Submit" /> */}
 				<CoolButton text="Submit" />
 				<CoolButton text="Reset" />

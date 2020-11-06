@@ -11,6 +11,7 @@ export default ({ before = require('../../images/before.png'), after = require('
 		setIsFlipped(!isFlipped);
 	};
 	useEffect(() => {
+		// initialize animation library
 		AOS.init({
 			duration: 1500,
 			mirror: true,
@@ -18,12 +19,17 @@ export default ({ before = require('../../images/before.png'), after = require('
 		});
 		AOS.refresh();
 
+		// set container height dynamically to avoid overlapping with other elements
 		setTimeout(() => {
 			setHeight(ref.current.clientHeight);
 		}, 300);
+
+		// flip card on a timed interval
 		const interval = setInterval(() => {
 			setIsFlipped(prevState => !prevState);
 		}, 3000);
+
+		// clear interval on component unmount
 		return () => {
 			clearInterval(interval);
 		};
