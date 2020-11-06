@@ -11,15 +11,18 @@ import CoolButton from '../components/CoolButton/CoolButton';
 import './Home.css';
 
 export default () => (
-	<div>
+	<div id="hero">
 		<Hero />
 		<CenterParagraph />
-		<WhoWeAre />
+		<div id="about"></div>
+		<WhoWeAre  />
 		<CardSection />
 		{/* <GridDisplay /> */}
+		<div id="contact"></div>
 		<div className="contact-opp-container">
 			<ContactForm />
 			<div
+			id="opportunities"
 				className="opp-box"
 				style={{ backgroundColor: 'white', maxWidth: '488px', margin: '0 auto', padding: 30 }}
 			>

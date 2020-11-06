@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import './Header.css';
 
 export default ({ expanded, setExpanded }) => {
@@ -30,14 +30,17 @@ export default ({ expanded, setExpanded }) => {
 				</div>
 				<nav className={`${expanded ? 'expanded' : ''}`}>
 					<span>
-						<Link to="/">Home</Link>
+					<a href="#hero">Home</a>
+						{/* <Link to="/">Home</Link> */}
 					</span>
 					<span>
-						<Link to="/stylists">Meet The Stylists</Link>
+					<a href="#about">About</a>
+						{/* <Link to="/stylists">Meet The Stylists</Link> */}
 					</span>
 					<span id="dropdown-hover" onClick={() => setCollapsibleVisible(!collapsibleVisible)}>
-						Services
-						<div className={collapsibleVisible ? 'collapsible-content coll-active' : 'collapsible-content'}>
+					<a href="#services">Services</a>
+						{/* Services */}
+						{/* <div className={collapsibleVisible ? 'collapsible-content coll-active' : 'collapsible-content'}>
 							<span>
 								<Link to="hair-design">Hair Design</Link>
 							</span>
@@ -53,21 +56,24 @@ export default ({ expanded, setExpanded }) => {
 							<span>
 								<Link to="/hair-replacement">Hair Replacement</Link>
 							</span>
-						</div>
+						</div> */}
 					</span>
 					<span>
-						<Link to="/contact-us">Contact</Link>
+					<a href="#products">Products</a>
+						{/* <Link to="/contact-us">Contact</Link> */}
 					</span>
 					<span>
-						<Link to="/testimonials">Testimonials</Link>
+					<a href="#hair-replacement">Hair Replacement</a>
+						{/* <Link to="/testimonials">Testimonials</Link> */}
 					</span>
 					<span>
-						<Link to="/videos">Videos</Link>
+					<a href="#contact">Contact</a>
+						{/* <Link to="/videos">Videos</Link> */}
 					</span>
 					<span>
-						<Link to="/opportunities">Opportunities</Link>
+					<a href="#opportunities">Opportunities</a>
+						{/* <Link to="/opportunities">Opportunities</Link> */}
 					</span>
-					<span>Search</span>
 				</nav>
 				<div className={`hamburger`} onClick={slideMenu}>
 					<div></div>

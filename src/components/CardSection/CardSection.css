@@ -6,6 +6,23 @@
 	flex-wrap: wrap;
 }
 
+.card-section:before {
+	content: "";
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 100vh;
+	z-index: -10;
+	background: url('../../images/bgHairWash.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
 @media only screen and (min-width: 800px) {
 	.card-section {
 		flex-wrap: nowrap;

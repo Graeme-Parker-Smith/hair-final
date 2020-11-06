@@ -26,7 +26,8 @@ export default () => {
 	}, []);
 
 	return (
-		<div className="card-section">
+		<div id="services" className="card-section">
+			{/* <div id="services"></div> */}
 			<h1 data-aos="fade-up" style={{ color: 'white' }}>
 				We Do It All
 			</h1>
@@ -93,6 +94,7 @@ export default () => {
 					<p data-aos="zoom-in">Get our Barber Services Flyer and share</p>
 				</div>
 			</Card>
+			<div id="products"></div>
 			<Card id="card-1" header={cardHeaders[0]} text={cardTexts[0]}>
 				<ProductBox
 					header="Blazing Color"
@@ -159,6 +161,7 @@ export default () => {
 					colorImg={require('../../images/redken-chart-cropped.png')}
 				/>
 			</Card>
+			<div id="hair-replacement"></div>
 			<Card id="card-4" header="Hair Replacement">
 					{/* <FlippableCard data-aos="fade-up" before={require('../../images/hair-replacement-dark-before.png')} after={require('../../images/hair-replacement-dark-after.png')} /> */}
 				<h1 data-aos="fade-up" style={{ textAlign: 'center', marginBottom: '50px' }}>
