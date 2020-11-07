@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import './FlippableCard.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
- 
+
 export default ({ before = require('../../images/before.png'), after = require('../../images/after.png') }) => {
 	const [isFlipped, setIsFlipped] = useState(false);
-	const [height, setHeight] = useState(0);
+	const [height, setHeight] = useState(200);
 	const ref = useRef(null);
 	const handleClick = () => {
 		setIsFlipped(!isFlipped);
@@ -26,7 +26,7 @@ export default ({ before = require('../../images/before.png'), after = require('
 
 		// flip card on a timed interval
 		const interval = setInterval(() => {
-			setIsFlipped(prevState => !prevState);
+			setIsFlipped((prevState) => !prevState);
 		}, 3000);
 
 		// clear interval on component unmount
@@ -34,13 +34,15 @@ export default ({ before = require('../../images/before.png'), after = require('
 			clearInterval(interval);
 		};
 	}, []);
+	useEffect(() => {
+		setHeight(ref.current.clientHeight);
+	}, [isFlipped, setIsFlipped]);
 	return (
 		<div
-		style={{ height, float: 'right' }}
-		onClick={handleClick}
-		className={isFlipped ? 'flip-container flip' : 'flip-container'}
+			style={{ height, minHeight: 200 }}
+			onClick={handleClick}
+			className={isFlipped ? 'flip-container flip' : 'flip-container'}
 		>
-		
 			<div data-aos="fade-up" className="flipper">
 				<div className="back">
 					<img ref={ref} alt="card front" src={before} />
