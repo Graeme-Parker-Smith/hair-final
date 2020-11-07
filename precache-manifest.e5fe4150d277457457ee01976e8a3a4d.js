@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d367ee3844a5c1e6c421e652ba539de5",
+    "revision": "e4194d1abd021d9578b9c72ccf1930b4",
     "url": "/hair-final/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hair-final/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "ccf537098da918d0a47b",
+    "revision": "af70c426b09da9b117c0",
     "url": "/hair-final/static/css/main.0c266ee2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hair-final/static/js/2.1d2cd6dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ccf537098da918d0a47b",
-    "url": "/hair-final/static/js/main.60327412.chunk.js"
+    "revision": "af70c426b09da9b117c0",
+    "url": "/hair-final/static/js/main.bfdd6106.chunk.js"
   },
   {
     "revision": "3fbadd0faef013e6f21c",

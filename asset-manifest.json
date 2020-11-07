@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hair-final/static/css/main.0c266ee2.chunk.css",
-    "main.js": "/hair-final/static/js/main.60327412.chunk.js",
-    "main.js.map": "/hair-final/static/js/main.60327412.chunk.js.map",
+    "main.js": "/hair-final/static/js/main.bfdd6106.chunk.js",
+    "main.js.map": "/hair-final/static/js/main.bfdd6106.chunk.js.map",
     "runtime-main.js": "/hair-final/static/js/runtime-main.da559e52.js",
     "runtime-main.js.map": "/hair-final/static/js/runtime-main.da559e52.js.map",
     "static/css/2.4707e12a.chunk.css": "/hair-final/static/css/2.4707e12a.chunk.css",
     "static/js/2.1d2cd6dc.chunk.js": "/hair-final/static/js/2.1d2cd6dc.chunk.js",
     "static/js/2.1d2cd6dc.chunk.js.map": "/hair-final/static/js/2.1d2cd6dc.chunk.js.map",
     "index.html": "/hair-final/index.html",
-    "precache-manifest.5b8763c415931821ce8e3f3099d9b2cb.js": "/hair-final/precache-manifest.5b8763c415931821ce8e3f3099d9b2cb.js",
+    "precache-manifest.e5fe4150d277457457ee01976e8a3a4d.js": "/hair-final/precache-manifest.e5fe4150d277457457ee01976e8a3a4d.js",
     "service-worker.js": "/hair-final/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/hair-final/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.0c266ee2.chunk.css.map": "/hair-final/static/css/main.0c266ee2.chunk.css.map",
@@ -78,6 +78,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.1d2cd6dc.chunk.js",
     "static/css/main.0c266ee2.chunk.css",
-    "static/js/main.60327412.chunk.js"
+    "static/js/main.bfdd6106.chunk.js"
   ]
 }
