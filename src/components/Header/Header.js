@@ -30,15 +30,15 @@ export default ({ expanded, setExpanded }) => {
 				</div>
 				<nav className={`${expanded ? 'expanded' : ''}`}>
 					<span>
-					<a href="#hero">Home</a>
+						<a onClick={slideMenu} href="#hero">Home</a>
 						{/* <Link to="/">Home</Link> */}
 					</span>
 					<span>
-					<a href="#about">About</a>
+						<a onClick={slideMenu} href="#about">About</a>
 						{/* <Link to="/stylists">Meet The Stylists</Link> */}
 					</span>
 					<span id="dropdown-hover" onClick={() => setCollapsibleVisible(!collapsibleVisible)}>
-					<a href="#services">Services</a>
+						<a onClick={slideMenu} href="#services">Services</a>
 						{/* Services */}
 						{/* <div className={collapsibleVisible ? 'collapsible-content coll-active' : 'collapsible-content'}>
 							<span>
@@ -59,19 +59,21 @@ export default ({ expanded, setExpanded }) => {
 						</div> */}
 					</span>
 					<span>
-					<a href="#products">Products</a>
+						<a onClick={slideMenu} href="#products">Products</a>
 						{/* <Link to="/contact-us">Contact</Link> */}
 					</span>
 					<span>
-					<a href="#hair-replacement">Hair Replacement</a>
+						<a onClick={slideMenu} href="#hair-replacement">
+							Hair Replacement
+						</a>
 						{/* <Link to="/testimonials">Testimonials</Link> */}
 					</span>
 					<span>
-					<a href="#contact">Contact</a>
+						<a onClick={slideMenu} href="#contact">Contact</a>
 						{/* <Link to="/videos">Videos</Link> */}
 					</span>
 					<span>
-					<a href="#opportunities">Opportunities</a>
+						<a onClick={slideMenu} href="#opportunities">Opportunities</a>
 						{/* <Link to="/opportunities">Opportunities</Link> */}
 					</span>
 				</nav>
